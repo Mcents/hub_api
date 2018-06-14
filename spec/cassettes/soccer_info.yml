@@ -1,0 +1,1793 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://reddit.com/r/soccer/hot.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Retry-After:
+      - '0'
+      Location:
+      - https://www.reddit.com/r/soccer/hot.json
+      Content-Length:
+      - '0'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 14 Jun 2018 21:12:49 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+      X-Served-By:
+      - cache-iad2635-IAD
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1529010769.253765,VS0,VE0
+      Cache-Control:
+      - private, max-age=3600
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 14 Jun 2018 21:12:49 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/soccer/hot.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=tLe0K5jHZXjenyl7K9; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=00000000001km1jdy3.2.1529010769348.Z0FBQUFBQmJJdHBSTEJ2cWFyWDFfa0lSek1mVi1Gc0c1eXBsVTJjTjlGck1kVmVWekRGQ0JiWTBUTVpzU1hmQjZHTE55c0dsNm9rWWVKanh0RjVPV3p4Z0lsTXh6TWE5Z1A2UFpnY0RaN1ZqQjJVZnkzTHU0bHZzMk02VVFSUm02RzNLWmU0SWJFeXg;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sat, 13-Jun-2020 21:12:49
+        GMT; secure
+      - session_tracker=gdLAe2v4rKbdRTb1t8.0.1529010769344.Z0FBQUFBQmJJdHBSVVF1b25tRXVUTUVDMGJRWDU3NlFaNldsNUhPMmQ1bFRoOTdHek1xVzN1LU1fZWQwdkF3eDlHZHNzeWJseUV2YlJBT3d0YzdMTG5WS2NNOGVxYThfc2pSNnVxZ3VCS0dlbjBvMFY2SUo0cmU2UFhsNkVsS0NXTkpjQ0JVOU84TS0;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Thu, 14-Jun-2018 23:12:49
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Moose
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '19205'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 14 Jun 2018 21:12:49 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-ewr18124-EWR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1529010769.332739,VS0,VE161
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "dist": 27, "children":
+        [{"kind": "t3", "data": {"approved_at_utc": null, "subreddit": "soccer", "selftext":
+        "#[](#sprite7-p401) FIFA World Cup Russia 2018\n\n***\n\n#Group Stage\n\n\n\n###[](#icon-trophy-big)
+        Group A\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p142)
+        [Russia](https://www.reddit.com/r/soccer/comments/8hxkwo/team_preview_russia_2018_world_cup_132/)|1|1|0|0|5|0|+5|3\n[](#sprite6-p52)
+        [Egypt](https://www.reddit.com/r/soccer/comments/8if9qq/team_preview_egypt_2018_world_cup_332/)|0|0|0|0|0|0|0|0\n[](#sprite6-p185)
+        [Uruguay](https://www.reddit.com/r/soccer/comments/8io9ev/team_preview_uruguay_2018_world_cup_432/)|0|0|0|0|0|0|0|0\n[](#sprite6-p150)
+        [Saudi Arabia](https://www.reddit.com/r/soccer/comments/8i6k21/team_preview_saudi_arabia_2018_world_cup_232/)|1|0|0|1|0|5|-5|0\n\n\n###[](#icon-trophy-big)
+        Group B\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p139)
+        [Portugal](https://www.reddit.com/r/soccer/comments/8iwi00/team_preview_portugal_2018_world_cup_532/)|0|0|0|0|0|0|0|0\n[](#sprite6-p161)
+        [Spain](https://www.reddit.com/r/soccer/comments/8j4sdy/team_preview_spain_2018_world_cup_632/)|0|0|0|0|0|0|0|0\n[](#sprite6-p118)
+        [Morocco](https://www.reddit.com/r/soccer/comments/8jcvqu/team_preview_morocco_2018_world_cup_732/)|0|0|0|0|0|0|0|0\n[](#sprite6-p78)
+        [Iran](https://www.reddit.com/r/soccer/comments/8jm2ko/team_preview_iran_2018_world_cup_832/)|0|0|0|0|0|0|0|0\n\n\n\n###[](#icon-trophy-big)
+        Group C\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p60)
+        [France](https://www.reddit.com/r/soccer/comments/8jv95t/team_preview_france_2018_world_cup_932/)|0|0|0|0|0|0|0|0\n[](#sprite6-p9)
+        [Australia](https://www.reddit.com/r/soccer/comments/8k4r5o/team_preview_australia_2018_world_cup_1032/)|0|0|0|0|0|0|0|0\n[](#sprite6-p136)
+        [Peru](https://www.reddit.com/r/soccer/comments/8kcszi/team_preview_peru_2018_world_cup_1132/)|0|0|0|0|0|0|0|0\n[](#sprite6-p47)
+        [Denmark](https://www.reddit.com/r/soccer/comments/8klkvt/team_preview_denmark_2018_world_cup_1232/)|0|0|0|0|0|0|0|0\n\n\n\n###[](#icon-trophy-big)
+        Group D\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p7)
+        [Argentina](https://www.reddit.com/r/soccer/comments/8ksuiu/team_preview_argentina_2018_world_cup_1332/)|0|0|0|0|0|0|0|0\n[](#sprite6-p75)
+        [Iceland](https://www.reddit.com/r/soccer/comments/8l0z0n/team_preview_iceland_2018_world_cup_1432/)|0|0|0|0|0|0|0|0\n[](#sprite6-p43)
+        [Croatia](https://www.reddit.com/r/soccer/comments/8la9ng/team_preview_croatia_2018_world_cup_1532/)|0|0|0|0|0|0|0|0\n[](#sprite6-p128)
+        [Nigeria](https://www.reddit.com/r/soccer/comments/8ljqi7/team_preview_nigeria_2018_world_cup_1632/)|0|0|0|0|0|0|0|0\n\n\n\n###[](#icon-trophy-big)
+        Group E\n\nTeam | Pld| W | D | L | GF | GA | GD| Pts\n---|---|----|----|----|----|----|----|----\n[](#sprite6-p24)
+        [Brazil](https://www.reddit.com/r/soccer/comments/8lsup7/team_preview_brazil_2018_world_cup_1732/)|
+        0 | 0 | 0 | 0 | 0 | 0 | 0 | 0\n[](#sprite6-p167) [Switzerland](https://www.reddit.com/r/soccer/comments/8m29lo/team_preview_switzerland_2018_world_cup_1832/)
+        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0\n[](#sprite6-p41) [Costa Rica](https://www.reddit.com/r/soccer/comments/8ma4ch/team_preview_costa_rica_2018_world_cup_1932/)|
+        0 | 0 | 0 | 0 | 0 | 0 | 0 | 0\n[](#sprite6-p152) [Serbia](https://www.reddit.com/r/soccer/comments/8mhy7p/team_preview_serbia_2018_world_cup_2032/)
+        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0\n\n\n\n\n###[](#icon-trophy-big) Group F\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p64)
+        [Germany](https://www.reddit.com/r/soccer/comments/8mqeor/team_preview_germany_2018_world_cup_2132/)|0|0|0|0|0|0|0|0\n[](#sprite6-p112)
+        [Mexico](https://www.reddit.com/r/soccer/comments/8mzext/team_preview_mexico_2018_world_cup_2232/)|0|0|0|0|0|0|0|0\n[](#sprite6-p166)
+        [Sweden](https://www.reddit.com/r/soccer/comments/8n8u7a/team_preview_sweden_2018_world_cup_2332/)|0|0|0|0|0|0|0|0\n[](#sprite6-p90)
+        [South Korea](https://www.reddit.com/r/soccer/comments/8nik3e/team_preview_south_korea_2018_world_cup_2432/)|0|0|0|0|0|0|0|0\n\n\n\n###[](#icon-trophy-big)
+        Group G\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p17)
+        [Belgium](https://www.reddit.com/r/soccer/comments/8nru0v/team_preview_belgium_2018_world_cup_2532/)|0|0|0|0|0|0|0|0\n[](#sprite6-p133)
+        [Panama](https://www.reddit.com/r/soccer/comments/8o0bop/team_preview_panama_world_cup_2018_2632/)|0|0|0|0|0|0|0|0\n[](#sprite6-p222)
+        [England](https://www.reddit.com/r/soccer/comments/8ogt11/team_preview_england_2018_world_cup_2832/)|0|0|0|0|0|0|0|0\n[](#sprite6-p176)
+        [Tunisia](https://www.reddit.com/r/soccer/comments/8o7w4n/team_preview_tunisia_2018_world_cup_2732/)|0|0|0|0|0|0|0|0\n\n\n\n###[](#icon-trophy-big)
+        Group H\n\nTeam|Pld|W|D|L|GF|GA|GD|Pts\n:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:\n[](#sprite6-p138)
+        [Poland](https://www.reddit.com/r/soccer/comments/8orlp4/team_preview_poland_2018_world_cup_2932/)|0|0|0|0|0|0|0|0\n[](#sprite6-p151)
+        [Senegal](https://www.reddit.com/r/soccer/comments/8p0lfo/team_preview_senegal_2018_world_cup_3032/)|0|0|0|0|0|0|0|0\n[](#sprite6-p37)
+        [Colombia](https://www.reddit.com/r/soccer/comments/8pa319/team_preview_colombia_2018_world_cup_preview_3132/)|0|0|0|0|0|0|0|0\n[](#sprite6-p84)
+        [Japan](https://www.reddit.com/r/soccer/comments/8pj5a6/team_preview_japan_2018_world_cup_3232/)|0|0|0|0|0|0|0|0\n\n\n\n***\n\n#Fixtures\n\n*All
+        times shown in GMT+3. Convert to your time zone [here](https://www.timeanddate.com/worldclock/converter.html?iso=20180613T150000&amp;p1=166&amp;p2=37&amp;p3=136&amp;p4=179&amp;p5=137).*\n\n\n\n###[](#icon-clock-big)
+        Matchday 1\n\nDate|Home Team|Away Team|Group|Result|\n--:|:--|:--|:--|:--|\n14/06/2018
+        18:00|[](#sprite6-p142) Russia|[](#sprite6-p150) Saudi Arabia|Group A|5-0|\n15/06/2018
+        15:00|[](#sprite6-p52) Egypt|[](#sprite6-p185) Uruguay|Group A||\n15/06/2018
+        18:00|[](#sprite6-p118) Morocco|[](#sprite6-p78) Iran|Group B||\n15/06/2018
+        21:00|[](#sprite6-p139) Portugal|[](#sprite6-p161) Spain|Group B||\n16/06/2018
+        13:00|[](#sprite6-p60) France|[](#sprite6-p9) Australia|Group C||\n16/06/2018
+        16:00|[](#sprite6-p7) Argentina|[](#sprite6-p75) Iceland|Group D||\n16/06/2018
+        19:00|[](#sprite6-p136) Peru|[](#sprite6-p47) Denmark|Group C||\n16/06/2018
+        22:00|[](#sprite6-p43) Croatia|[](#sprite6-p128) Nigeria|Group D||\n17/06/2018
+        15:00|[](#sprite6-p41) Costa Rica|[](#sprite6-p152) Serbia|Group E||\n17/06/2018
+        18:00|[](#sprite6-p64) Germany|[](#sprite6-p112) Mexico|Group F||\n17/06/2018
+        21:00|[](#sprite6-p24) Brazil|[](#sprite6-p167) Switzerland|Group E||\n18/06/2018
+        15:00|[](#sprite6-p166) Sweden|[](#sprite6-p90) South Korea|Group F||\n18/06/2018
+        18:00|[](#sprite6-p17) Belgium|[](#sprite6-p133) Panama|Group G||\n18/06/2018
+        21:00|[](#sprite6-p176) Tunisia|[](#sprite6-p222) England|Group G||\n19/06/2018
+        15:00|[](#sprite6-p37) Colombia|[](#sprite6-p84) Japan|Group H||\n19/06/2018
+        18:00|[](#sprite6-p138) Poland|[](#sprite6-p151) Senegal|Group H||\n\n###[](#icon-clock-big)
+        Matchday 2\n\nDate|Home Team|Away Team|Group|Result|\n--:|:--|:--|:--|:--|\n19/06/2018
+        21:00|[](#sprite6-p142) Russia|[](#sprite6-p52) Egypt|Group A||\n20/06/2018
+        15:00|[](#sprite6-p139) Portugal|[](#sprite6-p118) Morocco|Group B||\n20/06/2018
+        18:00|[](#sprite6-p185) Uruguay|[](#sprite6-p150) Saudi Arabia|Group A||\n20/06/2018
+        21:00|[](#sprite6-p78) Iran|[](#sprite6-p161) Spain|Group B||\n21/06/2018
+        15:00|[](#sprite6-p47) Denmark|[](#sprite6-p9) Australia|Group C||\n21/06/2018
+        18:00|[](#sprite6-p60) France|[](#sprite6-p136) Peru|Group C||\n21/06/2018
+        21:00|[](#sprite6-p7) Argentina|[](#sprite6-p43) Croatia|Group D||\n22/06/2018
+        15:00|[](#sprite6-p24) Brazil|[](#sprite6-p41) Costa Rica|Group E||\n22/06/2018
+        18:00|[](#sprite6-p128) Nigeria|[](#sprite6-p75) Iceland|Group D||\n22/06/2018
+        21:00|[](#sprite6-p152) Serbia|[](#sprite6-p167) Switzerland|Group E||\n23/06/2018
+        15:00|[](#sprite6-p17) Belgium|[](#sprite6-p176) Tunisia|Group G||\n23/06/2018
+        18:00|[](#sprite6-p90) South Korea|[](#sprite6-p112) Mexico|Group F||\n23/06/2018
+        21:00|[](#sprite6-p64) Germany|[](#sprite6-p166) Sweden|Group F||\n24/06/2018
+        15:00|[](#sprite6-p222) England|[](#sprite6-p133) Panama|Group G||\n24/06/2018
+        18:00|[](#sprite6-p84) Japan|[](#sprite6-p151) Senegal|Group H||\n24/06/2018
+        21:00|[](#sprite6-p138) Poland|[](#sprite6-p37) Colombia|Group H||\n\n###[](#icon-clock-big)
+        Matchday 3\n\nDate|Home Team|Away Team|Group|Result|\n--:|:--|:--|:--|:--|\n25/06/2018
+        17:00|[](#sprite6-p185) Uruguay|[](#sprite6-p142) Russia|Group A||\n25/06/2018
+        17:00|[](#sprite6-p150) Saudi Arabia|[](#sprite6-p52) Egypt|Group A||\n25/06/2018
+        21:00|[](#sprite6-p78) Iran|[](#sprite6-p139) Portugal|Group B||\n25/06/2018
+        21:00|[](#sprite6-p161) Spain|[](#sprite6-p118) Morocco|Group B||\n26/06/2018
+        17:00|[](#sprite6-p47) Denmark|[](#sprite6-p60) France|Group C||\n26/06/2018
+        17:00|[](#sprite6-p9) Australia|[](#sprite6-p136) Peru|Group C||\n26/06/2018
+        21:00|[](#sprite6-p128) Nigeria|[](#sprite6-p7) Argentina|Group D||\n26/06/2018
+        21:00|[](#sprite6-p75) Iceland|[](#sprite6-p43) Croatia|Group D||\n27/06/2018
+        17:00|[](#sprite6-p112) Mexico|[](#sprite6-p166) Sweden|Group F||\n27/06/2018
+        17:00|[](#sprite6-p90) South Korea|[](#sprite6-p64) Germany|Group F||\n27/06/2018
+        21:00|[](#sprite6-p152) Serbia|[](#sprite6-p24) Brazil|Group E||\n27/06/2018
+        21:00|[](#sprite6-p167) Switzerland|[](#sprite6-p41) Costa Rica|Group E||\n28/06/2018
+        17:00|[](#sprite6-p84) Japan|[](#sprite6-p138) Poland|Group H||\n28/06/2018
+        17:00|[](#sprite6-p151) Senegal|[](#sprite6-p37) Colombia|Group H||\n28/06/2018
+        21:00|[](#sprite6-p133) Panama|[](#sprite6-p176) Tunisia|Group G||\n28/06/2018
+        21:00|[](#sprite6-p222) England|[](#sprite6-p17) Belgium|Group G||\n\n---\n\n###[](#icon-ball-big)
+        Top Scorers\n\nPlayer|Team|Goals\n:---|:---|:---:\nDenis Cheryshev|Russia
+        [](#sprite6-p142)|2|\nYury Gazinskiy|Russia [](#sprite6-p142)|1|\nArtem Dzyuba|Russia
+        [](#sprite6-p142)|1|\nAleksandr Golovin|Russia [](#sprite6-p142)|1|\n|||\n|||\n|||\n|||\n|||\n|||\n\n---\n\n\n\n-
+        [2018 FIFA World Cup on fifa.com](https://www.fifa.com/worldcup/)\n\n- [r/soccer
+        Fanzone Thread](https://www.reddit.com/r/soccer/comments/8r04pg/fanzone_rsoccer_at_world_cup_russia_2018/)
+        via /u/Cheapo_Sam\n\n-\n\n-\n\n---\n\n^(\u25cf lovingly handcrafted by )^sga1",
+        "user_reports": [], "saved": false, "mod_reason_title": null, "gilded": 0,
+        "clicked": false, "title": "FIFA World Cup Russia 2018 Hub", "link_flair_richtext":
+        [{"e": "text", "t": "Announcement"}], "subreddit_name_prefixed": "r/soccer",
+        "hidden": false, "pwls": 6, "link_flair_css_class": "announcement", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8qw4se",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 1561, "domain": "self.soccer", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Announcement", "can_mod_post": false, "score": 1561,
+        "approved_by": null, "thumbnail": "", "edited": 1529006555.0, "author_flair_css_class":
+        null, "author_flair_richtext": [], "content_categories": null, "is_self":
+        true, "mod_note": null, "created": 1528953344.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "text", "contest_mode": false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;h1&gt;&lt;a href=\"#sprite7-p401\"&gt;&lt;/a&gt; FIFA
+        World Cup Russia 2018&lt;/h1&gt;\n\n&lt;hr/&gt;\n\n&lt;h1&gt;Group Stage&lt;/h1&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group A&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8hxkwo/team_preview_russia_2018_world_cup_132/\"&gt;Russia&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;1&lt;/td&gt;\n&lt;td align=\"center\"&gt;1&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;5&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;+5&lt;/td&gt;\n&lt;td align=\"center\"&gt;3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p52\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8if9qq/team_preview_egypt_2018_world_cup_332/\"&gt;Egypt&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p185\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8io9ev/team_preview_uruguay_2018_world_cup_432/\"&gt;Uruguay&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8i6k21/team_preview_saudi_arabia_2018_world_cup_232/\"&gt;Saudi
+        Arabia&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;1&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;1&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;5&lt;/td&gt;\n&lt;td align=\"center\"&gt;-5&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group B&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p139\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8iwi00/team_preview_portugal_2018_world_cup_532/\"&gt;Portugal&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p161\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8j4sdy/team_preview_spain_2018_world_cup_632/\"&gt;Spain&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p118\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8jcvqu/team_preview_morocco_2018_world_cup_732/\"&gt;Morocco&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p78\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8jm2ko/team_preview_iran_2018_world_cup_832/\"&gt;Iran&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group C&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p60\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8jv95t/team_preview_france_2018_world_cup_932/\"&gt;France&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p9\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8k4r5o/team_preview_australia_2018_world_cup_1032/\"&gt;Australia&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p136\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8kcszi/team_preview_peru_2018_world_cup_1132/\"&gt;Peru&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p47\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8klkvt/team_preview_denmark_2018_world_cup_1232/\"&gt;Denmark&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group D&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p7\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8ksuiu/team_preview_argentina_2018_world_cup_1332/\"&gt;Argentina&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p75\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8l0z0n/team_preview_iceland_2018_world_cup_1432/\"&gt;Iceland&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p43\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8la9ng/team_preview_croatia_2018_world_cup_1532/\"&gt;Croatia&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p128\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8ljqi7/team_preview_nigeria_2018_world_cup_1632/\"&gt;Nigeria&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group E&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Team&lt;/th&gt;\n&lt;th&gt;Pld&lt;/th&gt;\n&lt;th&gt;W&lt;/th&gt;\n&lt;th&gt;D&lt;/th&gt;\n&lt;th&gt;L&lt;/th&gt;\n&lt;th&gt;GF&lt;/th&gt;\n&lt;th&gt;GA&lt;/th&gt;\n&lt;th&gt;GD&lt;/th&gt;\n&lt;th&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;a
+        href=\"#sprite6-p24\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8lsup7/team_preview_brazil_2018_world_cup_1732/\"&gt;Brazil&lt;/a&gt;&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;a
+        href=\"#sprite6-p167\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8m29lo/team_preview_switzerland_2018_world_cup_1832/\"&gt;Switzerland&lt;/a&gt;&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;a
+        href=\"#sprite6-p41\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8ma4ch/team_preview_costa_rica_2018_world_cup_1932/\"&gt;Costa
+        Rica&lt;/a&gt;&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;a
+        href=\"#sprite6-p152\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8mhy7p/team_preview_serbia_2018_world_cup_2032/\"&gt;Serbia&lt;/a&gt;&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;td&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group F&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p64\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8mqeor/team_preview_germany_2018_world_cup_2132/\"&gt;Germany&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p112\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8mzext/team_preview_mexico_2018_world_cup_2232/\"&gt;Mexico&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p166\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8n8u7a/team_preview_sweden_2018_world_cup_2332/\"&gt;Sweden&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p90\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8nik3e/team_preview_south_korea_2018_world_cup_2432/\"&gt;South
+        Korea&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group G&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p17\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8nru0v/team_preview_belgium_2018_world_cup_2532/\"&gt;Belgium&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p133\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8o0bop/team_preview_panama_world_cup_2018_2632/\"&gt;Panama&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p222\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8ogt11/team_preview_england_2018_world_cup_2832/\"&gt;England&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p176\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8o7w4n/team_preview_tunisia_2018_world_cup_2732/\"&gt;Tunisia&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-trophy-big\"&gt;&lt;/a&gt; Group H&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th align=\"center\"&gt;Pld&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;W&lt;/th&gt;\n&lt;th align=\"center\"&gt;D&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;L&lt;/th&gt;\n&lt;th align=\"center\"&gt;GF&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;GA&lt;/th&gt;\n&lt;th align=\"center\"&gt;GD&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Pts&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p138\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8orlp4/team_preview_poland_2018_world_cup_2932/\"&gt;Poland&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p151\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8p0lfo/team_preview_senegal_2018_world_cup_3032/\"&gt;Senegal&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p37\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8pa319/team_preview_colombia_2018_world_cup_preview_3132/\"&gt;Colombia&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;a href=\"#sprite6-p84\"&gt;&lt;/a&gt; &lt;a href=\"https://www.reddit.com/r/soccer/comments/8pj5a6/team_preview_japan_2018_world_cup_3232/\"&gt;Japan&lt;/a&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;0&lt;/td&gt;\n&lt;td align=\"center\"&gt;0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;hr/&gt;\n\n&lt;h1&gt;Fixtures&lt;/h1&gt;\n\n&lt;p&gt;&lt;em&gt;All
+        times shown in GMT+3. Convert to your time zone &lt;a href=\"https://www.timeanddate.com/worldclock/converter.html?iso=20180613T150000&amp;amp;p1=166&amp;amp;p2=37&amp;amp;p3=136&amp;amp;p4=179&amp;amp;p5=137\"&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-clock-big\"&gt;&lt;/a&gt; Matchday 1&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"right\"&gt;Date&lt;/th&gt;\n&lt;th align=\"left\"&gt;Home Team&lt;/th&gt;\n&lt;th
+        align=\"left\"&gt;Away Team&lt;/th&gt;\n&lt;th align=\"left\"&gt;Group&lt;/th&gt;\n&lt;th
+        align=\"left\"&gt;Result&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;14/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; Russia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p150\"&gt;&lt;/a&gt; Saudi Arabia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        A&lt;/td&gt;\n&lt;td align=\"left\"&gt;5-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;15/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p52\"&gt;&lt;/a&gt; Egypt&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p185\"&gt;&lt;/a&gt; Uruguay&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        A&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;15/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p118\"&gt;&lt;/a&gt; Morocco&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p78\"&gt;&lt;/a&gt; Iran&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        B&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;15/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p139\"&gt;&lt;/a&gt; Portugal&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p161\"&gt;&lt;/a&gt; Spain&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        B&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;16/06/2018 13:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p60\"&gt;&lt;/a&gt; France&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p9\"&gt;&lt;/a&gt; Australia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        C&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;16/06/2018 16:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p7\"&gt;&lt;/a&gt; Argentina&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p75\"&gt;&lt;/a&gt; Iceland&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        D&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;16/06/2018 19:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p136\"&gt;&lt;/a&gt; Peru&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p47\"&gt;&lt;/a&gt; Denmark&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        C&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;16/06/2018 22:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p43\"&gt;&lt;/a&gt; Croatia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p128\"&gt;&lt;/a&gt; Nigeria&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        D&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;17/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p41\"&gt;&lt;/a&gt; Costa Rica&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p152\"&gt;&lt;/a&gt; Serbia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        E&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;17/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p64\"&gt;&lt;/a&gt; Germany&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p112\"&gt;&lt;/a&gt; Mexico&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        F&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;17/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p24\"&gt;&lt;/a&gt; Brazil&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p167\"&gt;&lt;/a&gt; Switzerland&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        E&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;18/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p166\"&gt;&lt;/a&gt; Sweden&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p90\"&gt;&lt;/a&gt; South Korea&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        F&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;18/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p17\"&gt;&lt;/a&gt; Belgium&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p133\"&gt;&lt;/a&gt; Panama&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        G&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;18/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p176\"&gt;&lt;/a&gt; Tunisia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p222\"&gt;&lt;/a&gt; England&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        G&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;19/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p37\"&gt;&lt;/a&gt; Colombia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p84\"&gt;&lt;/a&gt; Japan&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        H&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;19/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p138\"&gt;&lt;/a&gt; Poland&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p151\"&gt;&lt;/a&gt; Senegal&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        H&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-clock-big\"&gt;&lt;/a&gt; Matchday 2&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"right\"&gt;Date&lt;/th&gt;\n&lt;th align=\"left\"&gt;Home Team&lt;/th&gt;\n&lt;th
+        align=\"left\"&gt;Away Team&lt;/th&gt;\n&lt;th align=\"left\"&gt;Group&lt;/th&gt;\n&lt;th
+        align=\"left\"&gt;Result&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;19/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; Russia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p52\"&gt;&lt;/a&gt; Egypt&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        A&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;20/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p139\"&gt;&lt;/a&gt; Portugal&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p118\"&gt;&lt;/a&gt; Morocco&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        B&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;20/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p185\"&gt;&lt;/a&gt; Uruguay&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p150\"&gt;&lt;/a&gt; Saudi Arabia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        A&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;20/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p78\"&gt;&lt;/a&gt; Iran&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p161\"&gt;&lt;/a&gt; Spain&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        B&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;21/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p47\"&gt;&lt;/a&gt; Denmark&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p9\"&gt;&lt;/a&gt; Australia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        C&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;21/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p60\"&gt;&lt;/a&gt; France&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p136\"&gt;&lt;/a&gt; Peru&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        C&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;21/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p7\"&gt;&lt;/a&gt; Argentina&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p43\"&gt;&lt;/a&gt; Croatia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        D&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;22/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p24\"&gt;&lt;/a&gt; Brazil&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p41\"&gt;&lt;/a&gt; Costa Rica&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        E&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;22/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p128\"&gt;&lt;/a&gt; Nigeria&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p75\"&gt;&lt;/a&gt; Iceland&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        D&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;22/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p152\"&gt;&lt;/a&gt; Serbia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p167\"&gt;&lt;/a&gt; Switzerland&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        E&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;23/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p17\"&gt;&lt;/a&gt; Belgium&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p176\"&gt;&lt;/a&gt; Tunisia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        G&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;23/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p90\"&gt;&lt;/a&gt; South Korea&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p112\"&gt;&lt;/a&gt; Mexico&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        F&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;23/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p64\"&gt;&lt;/a&gt; Germany&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p166\"&gt;&lt;/a&gt; Sweden&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        F&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;24/06/2018 15:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p222\"&gt;&lt;/a&gt; England&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p133\"&gt;&lt;/a&gt; Panama&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        G&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;24/06/2018 18:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p84\"&gt;&lt;/a&gt; Japan&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p151\"&gt;&lt;/a&gt; Senegal&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        H&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;24/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p138\"&gt;&lt;/a&gt; Poland&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p37\"&gt;&lt;/a&gt; Colombia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        H&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-clock-big\"&gt;&lt;/a&gt; Matchday 3&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"right\"&gt;Date&lt;/th&gt;\n&lt;th align=\"left\"&gt;Home Team&lt;/th&gt;\n&lt;th
+        align=\"left\"&gt;Away Team&lt;/th&gt;\n&lt;th align=\"left\"&gt;Group&lt;/th&gt;\n&lt;th
+        align=\"left\"&gt;Result&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;25/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p185\"&gt;&lt;/a&gt; Uruguay&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; Russia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        A&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;25/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p150\"&gt;&lt;/a&gt; Saudi Arabia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p52\"&gt;&lt;/a&gt; Egypt&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        A&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;25/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p78\"&gt;&lt;/a&gt; Iran&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p139\"&gt;&lt;/a&gt; Portugal&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        B&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;25/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p161\"&gt;&lt;/a&gt; Spain&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p118\"&gt;&lt;/a&gt; Morocco&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        B&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;26/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p47\"&gt;&lt;/a&gt; Denmark&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p60\"&gt;&lt;/a&gt; France&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        C&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;26/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p9\"&gt;&lt;/a&gt; Australia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p136\"&gt;&lt;/a&gt; Peru&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        C&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;26/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p128\"&gt;&lt;/a&gt; Nigeria&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p7\"&gt;&lt;/a&gt; Argentina&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        D&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;26/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p75\"&gt;&lt;/a&gt; Iceland&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p43\"&gt;&lt;/a&gt; Croatia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        D&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;27/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p112\"&gt;&lt;/a&gt; Mexico&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p166\"&gt;&lt;/a&gt; Sweden&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        F&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;27/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p90\"&gt;&lt;/a&gt; South Korea&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p64\"&gt;&lt;/a&gt; Germany&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        F&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;27/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p152\"&gt;&lt;/a&gt; Serbia&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p24\"&gt;&lt;/a&gt; Brazil&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        E&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;27/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p167\"&gt;&lt;/a&gt; Switzerland&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p41\"&gt;&lt;/a&gt; Costa Rica&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        E&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;28/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p84\"&gt;&lt;/a&gt; Japan&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p138\"&gt;&lt;/a&gt; Poland&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        H&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;28/06/2018 17:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p151\"&gt;&lt;/a&gt; Senegal&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p37\"&gt;&lt;/a&gt; Colombia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        H&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;28/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p133\"&gt;&lt;/a&gt; Panama&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p176\"&gt;&lt;/a&gt; Tunisia&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        G&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"right\"&gt;28/06/2018 21:00&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p222\"&gt;&lt;/a&gt; England&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a
+        href=\"#sprite6-p17\"&gt;&lt;/a&gt; Belgium&lt;/td&gt;\n&lt;td align=\"left\"&gt;Group
+        G&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;hr/&gt;\n\n&lt;h3&gt;&lt;a
+        href=\"#icon-ball-big\"&gt;&lt;/a&gt; Top Scorers&lt;/h3&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"left\"&gt;Player&lt;/th&gt;\n&lt;th align=\"left\"&gt;Team&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Goals&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;Denis Cheryshev&lt;/td&gt;\n&lt;td align=\"left\"&gt;Russia
+        &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;2&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;Yury Gazinskiy&lt;/td&gt;\n&lt;td align=\"left\"&gt;Russia
+        &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;1&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;Artem Dzyuba&lt;/td&gt;\n&lt;td align=\"left\"&gt;Russia
+        &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;1&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;Aleksandr Golovin&lt;/td&gt;\n&lt;td align=\"left\"&gt;Russia
+        &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;1&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;hr/&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"https://www.fifa.com/worldcup/\"&gt;2018 FIFA World Cup on fifa.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"https://www.reddit.com/r/soccer/comments/8r04pg/fanzone_rsoccer_at_world_cup_russia_2018/\"&gt;r/soccer
+        Fanzone Thread&lt;/a&gt; via &lt;a href=\"/u/Cheapo_Sam\"&gt;/u/Cheapo_Sam&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;&lt;/h2&gt;\n\n&lt;h2&gt;&lt;/h2&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;sup&gt;\u25cf
+        lovingly handcrafted by &lt;/sup&gt;&lt;sup&gt;sga1&lt;/sup&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": "new", "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media_only": false, "link_flair_template_id":
+        "66c75c68-d807-11e5-9594-0e70f056253b", "can_gild": false, "spoiler": false,
+        "locked": false, "author_flair_text": null, "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "link_flair_background_color":
+        "", "id": "8qw4se", "report_reasons": null, "author": "WCHub", "num_crossposts":
+        0, "num_comments": 3345, "send_replies": false, "mod_reports": [], "author_flair_text_color":
+        null, "permalink": "/r/soccer/comments/8qw4se/fifa_world_cup_russia_2018_hub/",
+        "whitelist_status": "all_ads", "stickied": true, "url": "https://www.reddit.com/r/soccer/comments/8qw4se/fifa_world_cup_russia_2018_hub/",
+        "subreddit_subscribers": 985689, "created_utc": 1528924544.0, "media": null,
+        "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null, "subreddit":
+        "soccer", "selftext": "This thread is for general football discussion and
+        a place to ask quick questions.\n\nNew to the subreddit? Get your [team crest](/r/soccerbot/wiki)
+        and have a read of [our rules](/r/soccer/wiki/rules#wiki_community_rules).\n\n**Quick
+        links**:\n\n[](#icon-ball) [Match threads](/r/soccer/search?q=flair%3Amatch%2Bthread+AND+NOT+flair%3Apost+AND+NOT+flair%3Apre&amp;restrict_sr=on&amp;sort=new&amp;t=day#res-hide-options)\n\n[](#icon-whistle)
+        [Post match threads](/r/soccer/search?q=flair%3Apost%2Bmatch&amp;restrict_sr=on&amp;sort=new&amp;t=week#res-hide-options)\n\n[](#icon-news)
+        [League roundups](/r/soccer/search?q=flair%3Aroundup&amp;sort=new&amp;restrict_sr=on&amp;t=week&amp;feature=legacy_search#res-hide-options)\n\n[](#icon-tv)
+        [Watch highlights](/r/soccer/search?q=flair%3Amedia+OR+flair%3AMirror&amp;restrict_sr=on&amp;sort=hot&amp;t=day#res-hide-options)\n\n[](#icon-notes)
+        [Read the news](/r/soccer/search?q=NOT+flair%3Amedia+AND+NOT+flair%3AMirror&amp;restrict_sr=on&amp;sort=hot&amp;t=day#res-hide-options)\n\nThis
+        thread is posted every 23 hours to give it a different start time each day.\n",
+        "user_reports": [], "saved": false, "mod_reason_title": null, "gilded": 0,
+        "clicked": false, "title": "Daily Discussion [2018-06-14]", "link_flair_richtext":
+        [{"e": "text", "t": "Daily Discussion "}], "subreddit_name_prefixed": "r/soccer",
+        "hidden": false, "pwls": 6, "link_flair_css_class": "discussion", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8qz8ib",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 230, "domain": "self.soccer", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Daily Discussion ", "can_mod_post": false, "score":
+        230, "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        null, "author_flair_richtext": [], "content_categories": null, "is_self":
+        true, "mod_note": null, "created": 1528981800.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "text", "contest_mode": false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;This thread is for general football discussion and
+        a place to ask quick questions.&lt;/p&gt;\n\n&lt;p&gt;New to the subreddit?
+        Get your &lt;a href=\"/r/soccerbot/wiki\"&gt;team crest&lt;/a&gt; and have
+        a read of &lt;a href=\"/r/soccer/wiki/rules#wiki_community_rules\"&gt;our
+        rules&lt;/a&gt;.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Quick links&lt;/strong&gt;:&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-ball\"&gt;&lt;/a&gt; &lt;a href=\"/r/soccer/search?q=flair%3Amatch%2Bthread+AND+NOT+flair%3Apost+AND+NOT+flair%3Apre&amp;amp;restrict_sr=on&amp;amp;sort=new&amp;amp;t=day#res-hide-options\"&gt;Match
+        threads&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-whistle\"&gt;&lt;/a&gt;
+        &lt;a href=\"/r/soccer/search?q=flair%3Apost%2Bmatch&amp;amp;restrict_sr=on&amp;amp;sort=new&amp;amp;t=week#res-hide-options\"&gt;Post
+        match threads&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-news\"&gt;&lt;/a&gt;
+        &lt;a href=\"/r/soccer/search?q=flair%3Aroundup&amp;amp;sort=new&amp;amp;restrict_sr=on&amp;amp;t=week&amp;amp;feature=legacy_search#res-hide-options\"&gt;League
+        roundups&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-tv\"&gt;&lt;/a&gt;
+        &lt;a href=\"/r/soccer/search?q=flair%3Amedia+OR+flair%3AMirror&amp;amp;restrict_sr=on&amp;amp;sort=hot&amp;amp;t=day#res-hide-options\"&gt;Watch
+        highlights&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-notes\"&gt;&lt;/a&gt;
+        &lt;a href=\"/r/soccer/search?q=NOT+flair%3Amedia+AND+NOT+flair%3AMirror&amp;amp;restrict_sr=on&amp;amp;sort=hot&amp;amp;t=day#res-hide-options\"&gt;Read
+        the news&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;This thread is posted every 23 hours
+        to give it a different start time each day.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": "new", "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": true, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        null, "rte_mode": "markdown", "visited": false, "num_reports": null, "distinguished":
+        "moderator", "subreddit_id": "t5_2qi58", "mod_reason_by": null, "removal_reason":
+        null, "link_flair_background_color": "", "id": "8qz8ib", "report_reasons":
+        null, "author": "AutoModerator", "num_crossposts": 0, "num_comments": 1447,
+        "send_replies": false, "author_flair_text_color": null, "permalink": "/r/soccer/comments/8qz8ib/daily_discussion_20180614/",
+        "whitelist_status": "all_ads", "stickied": true, "url": "https://www.reddit.com/r/soccer/comments/8qz8ib/daily_discussion_20180614/",
+        "subreddit_subscribers": 985689, "created_utc": 1528953000.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 1, "clicked": false, "title": "Denis Cheryshev''s
+        second goal vs. Kingdom of Saudi Arabia ([4]-0)", "link_flair_richtext": [{"e":
+        "text", "t": "Media"}], "subreddit_name_prefixed": "r/soccer", "hidden": false,
+        "pwls": 6, "link_flair_css_class": "media", "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8r3eu9", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": "", "subreddit_type":
+        "public", "ups": 8996, "domain": "streamja.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Media",
+        "can_mod_post": false, "score": 8996, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 49 team-49 country-esp", "author_flair_richtext":
+        [{"e": "text", "t": "Spain"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529023924.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Spain", "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r3eu9",
+        "report_reasons": null, "author": "TomasRoncero", "num_crossposts": 1, "num_comments":
+        806, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r3eu9/denis_cheryshevs_second_goal_vs_kingdom_of_saudi/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://streamja.com/aXG9",
+        "subreddit_subscribers": 985689, "created_utc": 1528995124.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Russia
+        5-0 Saudi Arabia - Aleksandr Golovin free-kick", "link_flair_richtext": [{"e":
+        "text", "t": "Media"}], "subreddit_name_prefixed": "r/soccer", "hidden": false,
+        "pwls": 6, "link_flair_css_class": "media", "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8r3fsb", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": "", "subreddit_type":
+        "public", "ups": 3210, "domain": "streamja.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Media",
+        "can_mod_post": false, "score": 3210, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 62 team-62 country-fra", "author_flair_richtext":
+        [{"e": "text", "t": "France"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529024112.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "France", "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r3fsb",
+        "report_reasons": null, "author": "Meladroit1", "num_crossposts": 1, "num_comments":
+        684, "send_replies": true, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r3fsb/russia_50_saudi_arabia_aleksandr_golovin_freekick/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://streamja.com/ooGn",
+        "subreddit_subscribers": 985689, "created_utc": 1528995312.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Gay World
+        Cup fan left with brain injuries after brutal attack", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r2ojo", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        4053, "domain": "pinknews.co.uk", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 4053, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 89 team-89 country-usa", "author_flair_richtext":
+        [{"e": "text", "t": "Minnesota United"}], "content_categories": null, "is_self":
+        false, "mod_note": null, "created": 1529018444.0, "link_flair_type": "text",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Minnesota United", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "id": "8r2ojo", "report_reasons":
+        null, "author": "niton", "num_crossposts": 0, "num_comments": 1596, "send_replies":
+        false, "author_flair_text_color": null, "permalink": "/r/soccer/comments/8r2ojo/gay_world_cup_fan_left_with_brain_injuries_after/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.pinknews.co.uk/2018/06/14/fifa-world-cup-russia-gay-fan-brain-injuries-brutal-attack/?utm_source=MOBFB&amp;medium=280755+Gay+World+Cup+fan+left+with+brain+injuries+after+brutal+attack&amp;utm_campaign=PNMOBFB",
+        "subreddit_subscribers": 985689, "created_utc": 1528989644.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Y. Gazinskiy
+        goal vs. Kingdom of Saudi Arabia ([1]-0)", "link_flair_richtext": [{"e": "text",
+        "t": "Media"}], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls":
+        6, "link_flair_css_class": "media", "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8r2mtl", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": "", "subreddit_type":
+        "public", "ups": 4042, "domain": "streamja.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Media",
+        "can_mod_post": false, "score": 4042, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 49 team-49 country-esp", "author_flair_richtext":
+        [{"e": "text", "t": "Spain"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529018071.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Spain", "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r2mtl",
+        "report_reasons": null, "author": "TomasRoncero", "num_crossposts": 2, "num_comments":
+        396, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r2mtl/y_gazinskiy_goal_vs_kingdom_of_saudi_arabia_10/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://streamja.com/05oa",
+        "subreddit_subscribers": 985689, "created_utc": 1528989271.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "#TheDecision
+        - Griezmann reveals he''s staying at Atletico Madrid in the video about his
+        future.", "link_flair_richtext": [{"e": "text", "t": "Verified account"}],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        "twitter-verified", "downs": 0, "parent_whitelist_status": "all_ads", "hide_score":
+        true, "name": "t3_8r4rsf", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": "", "subreddit_type": "public", "ups": 1547,
+        "domain": "twitter.com", "media_embed": {}, "author_flair_template_id": null,
+        "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Verified
+        account", "can_mod_post": false, "score": 1547, "approved_by": null, "thumbnail":
+        "", "edited": false, "author_flair_css_class": "s1 9 team-9 country-esp",
+        "previous_visits": [], "author_flair_richtext": [{"e": "text", "t": "Real
+        Madrid"}], "content_categories": null, "is_self": false, "mod_note": null,
+        "created": 1529034407.0, "link_flair_type": "richtext", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media_only": false, "can_gild":
+        false, "spoiler": false, "locked": false, "author_flair_text": "Real Madrid",
+        "rte_mode": "markdown", "visited": false, "num_reports": null, "distinguished":
+        null, "subreddit_id": "t5_2qi58", "mod_reason_by": null, "removal_reason":
+        null, "link_flair_background_color": "", "id": "8r4rsf", "report_reasons":
+        null, "author": "Magdy97", "num_crossposts": 2, "num_comments": 806, "send_replies":
+        true, "mod_reports": [], "author_flair_text_color": "dark", "permalink": "/r/soccer/comments/8r4rsf/thedecision_griezmann_reveals_hes_staying_at/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/cero/status/1007348534901800960",
+        "subreddit_subscribers": 985689, "created_utc": 1529005607.0, "media": null,
+        "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null, "subreddit":
+        "soccer", "selftext": "", "user_reports": [], "saved": false, "mod_reason_title":
+        null, "gilded": 0, "clicked": false, "title": "Denis Cheryshev goal vs. Kingdom
+        of Saudi Arabia ([2]-0)", "link_flair_richtext": [{"e": "text", "t": "Media"}],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        "media", "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r2v71", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": "", "subreddit_type": "public", "ups": 3127,
+        "domain": "streamja.com", "media_embed": {}, "author_flair_template_id": null,
+        "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Media",
+        "can_mod_post": false, "score": 3127, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 49 team-49 country-esp", "author_flair_richtext":
+        [{"e": "text", "t": "Spain"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529019874.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Spain", "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r2v71",
+        "report_reasons": null, "author": "TomasRoncero", "num_crossposts": 2, "num_comments":
+        489, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r2v71/denis_cheryshev_goal_vs_kingdom_of_saudi_arabia_20/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://streamja.com/aXGW",
+        "subreddit_subscribers": 985689, "created_utc": 1528991074.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "----\n[](#sprite6-p142) [**Russia**](https://redd.it/8hxkwo)
+        5 - 0 [**Saudi Arabia**](https://redd.it/8i6k21) [](#sprite6-p150)\n---\n\n[*1-0
+        - Gazinskii*](https://streamja.com/05oa) *via u/TomasRoncero*\n\n[*2-0 - Cherysev*](https://streamja.com/aXGW)
+        *via u/TomasRonero*\n\n[*3-0 - Dzyuba*](https://streamja.com/OBX7) *via u/TomasRoncero*\n\n[*4-0
+        - Cherysev*](https://streamja.com/aXG9) *via u/TomasRoncero*\n\n[*5-0 - Golovin*](https://streamja.com/ooGn)
+        *via u/Meladroit1*\n\n---\n\n[](#icon-clock) **Kick off:** 4pm UK, 11am EST,
+        8am PST  \n[](#icon-info) **Stadium:** [Stadion Luzhniki, Moscow, Russia](https://en.wikipedia.org/wiki/Luzhniki_Stadium)  \n[](#icon-whistle)
+        **Referee:** [](#sprite6-p7) Nestor Pitana  \n[](#icon-tv) **How to watch
+        in your country**: [Here](https://www.livesoccertv.com/match/2653354/russia-vs-saudi-arabia/),
+        r/soccerstreams &amp; [Reddit comment stream](https://reddit-stream.com/comments/8r2acz/)\n\n*Any
+        problems with the thread? PM me and I''ll try to fix them*\n\n---\n\n[](#icon-notes-big)
+        **Starting 11''s**\n\n[](#sprite6-p142) **Russia:** Akinfeev, Fernandes, Kutepov,
+        Igansevich, Zhirkov, Gazinskii, Zobnin, Samedov, Golovin, Dzagoev, Smolov\n\n[](#sprite6-p150)
+        **Saudi Arabia:** Al-Maiouf, Alburayk, Os.Hawsawi, Om.Hawsawi, Al-Shahrani,
+        Otayf, Al-Dawsari, Al-Faraj, Al-Jassam, Al-Shehri, Al-Sahlawi \n\n---\n\n[](#icon-notes-big)
+        **Subs**\n\n[](#sprite6-p142) **Russia:** Gabulov, Lunev, Semenov, Cherysev,
+        Kuziaev, Kurdriashov, Granat, Al Miranchuk, An Miranchuk, Erokhin, Dzyuba,
+        Smolnikov\n\n[](#sprite6-p150) **Saudi Arabia:** Almosailem, Alowais, Manour,
+        Ali, Hatan, Abdulmalek, Kanno, Alkaibari, Hussain, Fahad, Muhannad, Motaz\n\n---\n\n**Updates**\n\n-28''
+        - Robbie Williams has just came onto the pitch to get the opening ceremony
+        started, from the footballing haven of Stoke-on-Trent\n\n-20'' - A nice little
+        cameo from Robbie Williams, not quite sure what year it is. Now time to clear
+        the pitch and then we''ll be underway.\n\n-10'' - Vlad Putin is giving a speech,
+        saying that its going to be a historic occasion and that the Russian people
+        are excited. Who''d have thought it?!\n\n-5'' - Gianni Infantino is up now...
+        Can we stop the talking and start playing?\n\n**0'' - Here we go! 4 years
+        of waiting is over and we''re underway!**\n\n3'' - Al-Dawsari clears away
+        an early Russian corner.\n\n6'' - Al-Sharani has had a bright start to game.
+        Saudi starting the better of the two teams.\n\n7'' - Smolov feeds Fernandes,
+        but a good clearance in defense from Saudi sees them clear their lines.\n\n12''
+        - [](#sprite6-p142) [](#icon-ball) **GOAAAAAAL RUSSIA! A corner is worked
+        out to the edge of the box and Zobnin swings in a great cross for *Gazinskii*
+        to head home! Great start for the hosts.**\n\n15'' - Russia break again down
+        the right and and its crossed into the box where 2 Russians and a Saudi player
+        compete for the ball, where the keeper, Abdullah has to make a smart leaping
+        save. Replays show that the Russian player who crossed the ball was offside..\n\n21''
+        - Al-Sharani has been a great outlet for Saudi so far, and he threatens again,
+        this time crossing for Al-Sahlawi but his header is blocked away for a corner.
+        \n\n23'' - Doesn''t look good for Dzagoev. He''s gone down clutching his hamstring
+        as Russia went on the counter attack. He started brightly too.\n\n24'' - [](#sprite6-p142)
+        [](#icon-up) Cherysev [](#icon-down) Dzagoev *1/3*\n\n31'' - Saudi win a free-kick
+        on the wide right. Its swung in but Al-Sahlawi can''t direct the header on
+        target.\n\n36'' - Russia break into the penalty area of Saudi, but a great
+        tackle by Osama Hawsawi gets the ball away from danger.\n\n43'' -  [](#sprite6-p142)
+        [](#icon-ball) **GOAAAAAAL RUSSIA! The host side break again down the right.
+        This time Smolov finds *Cherysev* with a deft pass, who hops past 2 incoming
+        Saudi players before smashing it into the top corner!**\n\n45'' - 2 minutes
+        added on\n\n---\n\n**Half Time - [](#sprite6-p142) Russia 2 - 0 Saudi Arabia**
+        [](#sprite6-p150)\n\n---\n\n45'' - Team are back out and we''re underway again.\n\n52''
+        - Samedov has a shot from 25 yards out after Saudi loses the ball deep in
+        their own half, but the shot is high over the bar.\n\n56'' - And that was
+        the golden chance for Saudi. Beautifully whipped in ball from the right. Al-Sahlawi
+        attacks it at the near post, and Al-Jassam slides in at the back post, but
+        neither can get a solid touch to direct it goalwards.\n\n64'' - [](#sprite6-p150)
+        [](#icon-up) Fahad [](#icon-down) Otayf *1/3*\n\n64'' -  [](#sprite6-p142)
+        [](#icon-up) Kuziaev [](#icon-down) Samedov *2/3*\n\n68'' - Zobnin takes a
+        shot at goal from inside the box, down and away to the keeper Abdullah, but
+        the Saudi keeper gets down to make a smart save, however he palms it back
+        into the path of onrushing attackers before Osama clears away.\n\n70'' - [](#sprite6-p142)
+        [](#icon-up) Dzyuba [](#icon-down) Smolov *3/3*\n\n71'' -  [](#sprite6-p142)
+        [](#icon-ball) **GOAAAAAAL RUSSIA! Its more poor defending from Saudi! And
+        an instant impact from *Dzyuba*. Golovin crosses into the big Russian target
+        man, who nods past Abdullah in goal, and sets Russia on their way to 3 points.**\n\n72''
+        - [](#sprite6-p150) [](#icon-up) Hatan [](#icon-down) Al-Shehri *2/3*\n\n84''
+        -  [](#sprite6-p150) [](#icon-up) Muhannad [](#icon-down) Al-Sahlawi *3/3*\n\n86''
+        - Not a lot happening since the third goal...\n\n88'' - [](#sprite6-p142)
+        [](#icon-yellow) Yellow card for Golovin. Persistent fouling\n\n90'' - We''ll
+        have 3 minutes added on\n\n90+1'' - [](#sprite6-p142) [](#icon-ball) **GOAAAAAAL
+        RUSSIA! A beautiful goal from *Cherysev!* Dzyuba knocks the ball down to the
+        first half sub, and the ball sits up nicely, and he hits it first time with
+        the outside of his foot, and the ball flies into the top corner. Great goal!**\n\n90+4''
+        - [](#sprite6-p150) [](#icon-yellow) Yellow card for Taiseer. Bad foul on
+        the edge of the box.\n\n90+4'' - [](#sprite6-p142) [](#icon-ball) **GOAAAAAAL
+        RUSSIA! 5 GOALS! *Golovin* steps up for the resulting free-kick and curls
+        it around the wall and into the net!**\n\n---\n\n[](#sprite6-p142) [**Russia**](https://redd.it/8hxkwo)
+        5 - 0 [**Saudi Arabia**](https://redd.it/8i6k21) [](#sprite6-p150)", "user_reports":
+        [], "saved": false, "mod_reason_title": null, "gilded": 0, "clicked": false,
+        "title": "Match Thread: Russia vs Saudi Arabia [World Cup - Group A]", "link_flair_richtext":
+        [{"e": "text", "t": "Match Thread"}], "subreddit_name_prefixed": "r/soccer",
+        "hidden": false, "pwls": 6, "link_flair_css_class": "matchthread", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r2acz",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 2860, "domain": "self.soccer", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Match Thread", "can_mod_post": false, "score": 2860,
+        "approved_by": null, "thumbnail": "", "edited": 1528995424.0, "author_flair_css_class":
+        "s1 239 team-239 country-eng", "author_flair_richtext": [{"e": "text", "t":
+        "Yeovil Town"}], "content_categories": null, "is_self": true, "mod_note":
+        null, "created": 1529015371.0, "link_flair_type": "richtext", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;hr/&gt;\n\n&lt;h2&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"https://redd.it/8hxkwo\"&gt;&lt;strong&gt;Russia&lt;/strong&gt;&lt;/a&gt;
+        5 - 0 &lt;a href=\"https://redd.it/8i6k21\"&gt;&lt;strong&gt;Saudi Arabia&lt;/strong&gt;&lt;/a&gt;
+        &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;&lt;/h2&gt;\n\n&lt;p&gt;&lt;a href=\"https://streamja.com/05oa\"&gt;&lt;em&gt;1-0
+        - Gazinskii&lt;/em&gt;&lt;/a&gt; &lt;em&gt;via &lt;a href=\"/u/TomasRoncero\"&gt;u/TomasRoncero&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://streamja.com/aXGW\"&gt;&lt;em&gt;2-0 - Cherysev&lt;/em&gt;&lt;/a&gt;
+        &lt;em&gt;via &lt;a href=\"/u/TomasRonero\"&gt;u/TomasRonero&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://streamja.com/OBX7\"&gt;&lt;em&gt;3-0 - Dzyuba&lt;/em&gt;&lt;/a&gt;
+        &lt;em&gt;via &lt;a href=\"/u/TomasRoncero\"&gt;u/TomasRoncero&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://streamja.com/aXG9\"&gt;&lt;em&gt;4-0 - Cherysev&lt;/em&gt;&lt;/a&gt;
+        &lt;em&gt;via &lt;a href=\"/u/TomasRoncero\"&gt;u/TomasRoncero&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://streamja.com/ooGn\"&gt;&lt;em&gt;5-0 - Golovin&lt;/em&gt;&lt;/a&gt;
+        &lt;em&gt;via &lt;a href=\"/u/Meladroit1\"&gt;u/Meladroit1&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-clock\"&gt;&lt;/a&gt; &lt;strong&gt;Kick off:&lt;/strong&gt;
+        4pm UK, 11am EST, 8am PST&lt;br/&gt;\n&lt;a href=\"#icon-info\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Stadium:&lt;/strong&gt; &lt;a href=\"https://en.wikipedia.org/wiki/Luzhniki_Stadium\"&gt;Stadion
+        Luzhniki, Moscow, Russia&lt;/a&gt;&lt;br/&gt;\n&lt;a href=\"#icon-whistle\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Referee:&lt;/strong&gt; &lt;a href=\"#sprite6-p7\"&gt;&lt;/a&gt;
+        Nestor Pitana&lt;br/&gt;\n&lt;a href=\"#icon-tv\"&gt;&lt;/a&gt; &lt;strong&gt;How
+        to watch in your country&lt;/strong&gt;: &lt;a href=\"https://www.livesoccertv.com/match/2653354/russia-vs-saudi-arabia/\"&gt;Here&lt;/a&gt;,
+        &lt;a href=\"/r/soccerstreams\"&gt;r/soccerstreams&lt;/a&gt; &amp;amp; &lt;a
+        href=\"https://reddit-stream.com/comments/8r2acz/\"&gt;Reddit comment stream&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Any
+        problems with the thread? PM me and I&amp;#39;ll try to fix them&lt;/em&gt;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-notes-big\"&gt;&lt;/a&gt; &lt;strong&gt;Starting 11&amp;#39;s&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;strong&gt;Russia:&lt;/strong&gt;
+        Akinfeev, Fernandes, Kutepov, Igansevich, Zhirkov, Gazinskii, Zobnin, Samedov,
+        Golovin, Dzagoev, Smolov&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Saudi Arabia:&lt;/strong&gt; Al-Maiouf, Alburayk, Os.Hawsawi,
+        Om.Hawsawi, Al-Shahrani, Otayf, Al-Dawsari, Al-Faraj, Al-Jassam, Al-Shehri,
+        Al-Sahlawi &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-notes-big\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Subs&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Russia:&lt;/strong&gt; Gabulov, Lunev, Semenov, Cherysev, Kuziaev,
+        Kurdriashov, Granat, Al Miranchuk, An Miranchuk, Erokhin, Dzyuba, Smolnikov&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;strong&gt;Saudi Arabia:&lt;/strong&gt;
+        Almosailem, Alowais, Manour, Ali, Hatan, Abdulmalek, Kanno, Alkaibari, Hussain,
+        Fahad, Muhannad, Motaz&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;-28&amp;#39;
+        - Robbie Williams has just came onto the pitch to get the opening ceremony
+        started, from the footballing haven of Stoke-on-Trent&lt;/p&gt;\n\n&lt;p&gt;-20&amp;#39;
+        - A nice little cameo from Robbie Williams, not quite sure what year it is.
+        Now time to clear the pitch and then we&amp;#39;ll be underway.&lt;/p&gt;\n\n&lt;p&gt;-10&amp;#39;
+        - Vlad Putin is giving a speech, saying that its going to be a historic occasion
+        and that the Russian people are excited. Who&amp;#39;d have thought it?!&lt;/p&gt;\n\n&lt;p&gt;-5&amp;#39;
+        - Gianni Infantino is up now... Can we stop the talking and start playing?&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;0&amp;#39;
+        - Here we go! 4 years of waiting is over and we&amp;#39;re underway!&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;3&amp;#39;
+        - Al-Dawsari clears away an early Russian corner.&lt;/p&gt;\n\n&lt;p&gt;6&amp;#39;
+        - Al-Sharani has had a bright start to game. Saudi starting the better of
+        the two teams.&lt;/p&gt;\n\n&lt;p&gt;7&amp;#39; - Smolov feeds Fernandes,
+        but a good clearance in defense from Saudi sees them clear their lines.&lt;/p&gt;\n\n&lt;p&gt;12&amp;#39;
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-ball\"&gt;&lt;/a&gt;
+        &lt;strong&gt;GOAAAAAAL RUSSIA! A corner is worked out to the edge of the
+        box and Zobnin swings in a great cross for &lt;em&gt;Gazinskii&lt;/em&gt;
+        to head home! Great start for the hosts.&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;15&amp;#39;
+        - Russia break again down the right and and its crossed into the box where
+        2 Russians and a Saudi player compete for the ball, where the keeper, Abdullah
+        has to make a smart leaping save. Replays show that the Russian player who
+        crossed the ball was offside..&lt;/p&gt;\n\n&lt;p&gt;21&amp;#39; - Al-Sharani
+        has been a great outlet for Saudi so far, and he threatens again, this time
+        crossing for Al-Sahlawi but his header is blocked away for a corner. &lt;/p&gt;\n\n&lt;p&gt;23&amp;#39;
+        - Doesn&amp;#39;t look good for Dzagoev. He&amp;#39;s gone down clutching
+        his hamstring as Russia went on the counter attack. He started brightly too.&lt;/p&gt;\n\n&lt;p&gt;24&amp;#39;
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-up\"&gt;&lt;/a&gt;
+        Cherysev &lt;a href=\"#icon-down\"&gt;&lt;/a&gt; Dzagoev &lt;em&gt;1/3&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;31&amp;#39;
+        - Saudi win a free-kick on the wide right. Its swung in but Al-Sahlawi can&amp;#39;t
+        direct the header on target.&lt;/p&gt;\n\n&lt;p&gt;36&amp;#39; - Russia break
+        into the penalty area of Saudi, but a great tackle by Osama Hawsawi gets the
+        ball away from danger.&lt;/p&gt;\n\n&lt;p&gt;43&amp;#39; -  &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;
+        &lt;a href=\"#icon-ball\"&gt;&lt;/a&gt; &lt;strong&gt;GOAAAAAAL RUSSIA! The
+        host side break again down the right. This time Smolov finds &lt;em&gt;Cherysev&lt;/em&gt;
+        with a deft pass, who hops past 2 incoming Saudi players before smashing it
+        into the top corner!&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;45&amp;#39; - 2
+        minutes added on&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;strong&gt;Half Time
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; Russia 2 - 0 Saudi Arabia&lt;/strong&gt;
+        &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;45&amp;#39;
+        - Team are back out and we&amp;#39;re underway again.&lt;/p&gt;\n\n&lt;p&gt;52&amp;#39;
+        - Samedov has a shot from 25 yards out after Saudi loses the ball deep in
+        their own half, but the shot is high over the bar.&lt;/p&gt;\n\n&lt;p&gt;56&amp;#39;
+        - And that was the golden chance for Saudi. Beautifully whipped in ball from
+        the right. Al-Sahlawi attacks it at the near post, and Al-Jassam slides in
+        at the back post, but neither can get a solid touch to direct it goalwards.&lt;/p&gt;\n\n&lt;p&gt;64&amp;#39;
+        - &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;a href=\"#icon-up\"&gt;&lt;/a&gt;
+        Fahad &lt;a href=\"#icon-down\"&gt;&lt;/a&gt; Otayf &lt;em&gt;1/3&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;64&amp;#39;
+        -  &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-up\"&gt;&lt;/a&gt;
+        Kuziaev &lt;a href=\"#icon-down\"&gt;&lt;/a&gt; Samedov &lt;em&gt;2/3&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;68&amp;#39;
+        - Zobnin takes a shot at goal from inside the box, down and away to the keeper
+        Abdullah, but the Saudi keeper gets down to make a smart save, however he
+        palms it back into the path of onrushing attackers before Osama clears away.&lt;/p&gt;\n\n&lt;p&gt;70&amp;#39;
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-up\"&gt;&lt;/a&gt;
+        Dzyuba &lt;a href=\"#icon-down\"&gt;&lt;/a&gt; Smolov &lt;em&gt;3/3&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;71&amp;#39;
+        -  &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-ball\"&gt;&lt;/a&gt;
+        &lt;strong&gt;GOAAAAAAL RUSSIA! Its more poor defending from Saudi! And an
+        instant impact from &lt;em&gt;Dzyuba&lt;/em&gt;. Golovin crosses into the
+        big Russian target man, who nods past Abdullah in goal, and sets Russia on
+        their way to 3 points.&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;72&amp;#39; -
+        &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;a href=\"#icon-up\"&gt;&lt;/a&gt;
+        Hatan &lt;a href=\"#icon-down\"&gt;&lt;/a&gt; Al-Shehri &lt;em&gt;2/3&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;84&amp;#39;
+        -  &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;a href=\"#icon-up\"&gt;&lt;/a&gt;
+        Muhannad &lt;a href=\"#icon-down\"&gt;&lt;/a&gt; Al-Sahlawi &lt;em&gt;3/3&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;86&amp;#39;
+        - Not a lot happening since the third goal...&lt;/p&gt;\n\n&lt;p&gt;88&amp;#39;
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-yellow\"&gt;&lt;/a&gt;
+        Yellow card for Golovin. Persistent fouling&lt;/p&gt;\n\n&lt;p&gt;90&amp;#39;
+        - We&amp;#39;ll have 3 minutes added on&lt;/p&gt;\n\n&lt;p&gt;90+1&amp;#39;
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-ball\"&gt;&lt;/a&gt;
+        &lt;strong&gt;GOAAAAAAL RUSSIA! A beautiful goal from &lt;em&gt;Cherysev!&lt;/em&gt;
+        Dzyuba knocks the ball down to the first half sub, and the ball sits up nicely,
+        and he hits it first time with the outside of his foot, and the ball flies
+        into the top corner. Great goal!&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;90+4&amp;#39;
+        - &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;a href=\"#icon-yellow\"&gt;&lt;/a&gt;
+        Yellow card for Taiseer. Bad foul on the edge of the box.&lt;/p&gt;\n\n&lt;p&gt;90+4&amp;#39;
+        - &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"#icon-ball\"&gt;&lt;/a&gt;
+        &lt;strong&gt;GOAAAAAAL RUSSIA! 5 GOALS! &lt;em&gt;Golovin&lt;/em&gt; steps
+        up for the resulting free-kick and curls it around the wall and into the net!&lt;/strong&gt;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"https://redd.it/8hxkwo\"&gt;&lt;strong&gt;Russia&lt;/strong&gt;&lt;/a&gt;
+        5 - 0 &lt;a href=\"https://redd.it/8i6k21\"&gt;&lt;strong&gt;Saudi Arabia&lt;/strong&gt;&lt;/a&gt;
+        &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "Yeovil Town", "rte_mode": "markdown", "visited": false, "num_reports": null,
+        "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by": null,
+        "removal_reason": null, "link_flair_background_color": "", "id": "8r2acz",
+        "report_reasons": null, "author": "ICameHereToDrinkMilk", "num_crossposts":
+        0, "num_comments": 15028, "send_replies": false, "author_flair_text_color":
+        null, "permalink": "/r/soccer/comments/8r2acz/match_thread_russia_vs_saudi_arabia_world_cup/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/soccer/comments/8r2acz/match_thread_russia_vs_saudi_arabia_world_cup/",
+        "subreddit_subscribers": 985689, "created_utc": 1528986571.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "----\n[](#sprite6-p142) [**Russia**](https://redd.it/8hxkwo)
+        5 - 0 [**Saudi Arabia**](https://redd.it/8i6k21) [](#sprite6-p150)\n---\n\n[](#icon-ball)
+        [Gazinsky \\(12\u2019\\)](https://www.dailymotion.com/video/x6lvxxn),\n\n[](#icon-ball)[](#icon-ball)
+        Cheryshev ([43\u2019](https://www.dailymotion.com/video/x6lw0vp), [90+1\u2019](https://www.dailymotion.com/video/x6lw621)),\n\n[](#icon-ball)
+        [Dyzuba \\(71\u2019\\)](https://www.dailymotion.com/video/x6lw4j9),\n\n[](#icon-ball)
+        [Golovin \\(90+4\u2019\\)](https://www.dailymotion.com/video/x6lw6eh)\n\n-
+        Goal replays courtesy of /u/BrilliantWealth.\n\n###Two bangers in a row...
+        what the fuck.\n\n\n---\n\n[](#icon-info) **Stadium:** [Stadion Luzhniki,
+        Moscow, Russia](https://en.wikipedia.org/wiki/Luzhniki_Stadium)  \n[](#icon-whistle)
+        **Referee:** [](#sprite6-p7) Nestor Pitana  \n\n---\n\n[](#icon-notes-big)
+        **Starting 11''s**\n\n[](#sprite6-p142) **Russia:** Akinfeev, Fernandes, Kutepov,
+        Igansevich, Zhirkov, Gazinskii, Zobnin, Samedov, Golovin, Dzagoev, Smolov\n\n[](#sprite6-p150)
+        **Saudi Arabia:** Al-Maiouf, Alburayk, Os.Hawsawi, Om.Hawsawi, Al-Shahrani,
+        Otayf, Al-Dawsari, Al-Faraj, Al-Jassam, Al-Shehri, Al-Sahlawi \n\n---\n\n[](#icon-notes-big)
+        **Subs**\n\n[](#sprite6-p142) **Russia:** Gabulov, Lunev, Semenov, Cherysev,
+        Kuziaev, Kurdriashov, Granat, Al Miranchuk, An Miranchuk, Erokhin, Dzyuba,
+        Smolnikov\n\n[](#sprite6-p150) **Saudi Arabia:** Almosailem, Alowais, Manour,
+        Ali, Hatan, Abdulmalek, Kanno, Alkaibari, Hussain, Fahad, Muhannad, Motaz\n\n---",
+        "user_reports": [], "saved": false, "mod_reason_title": null, "gilded": 0,
+        "clicked": false, "title": "Post-Match Thread: Russia vs Saudi Arabia [World
+        Cup Group A]", "link_flair_richtext": [{"e": "text", "t": "Post Match Thread"}],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        "postmatch", "downs": 0, "parent_whitelist_status": "all_ads", "hide_score":
+        false, "name": "t3_8r3fz9", "quarantine": false, "link_flair_text_color":
+        "dark", "author_flair_background_color": "", "subreddit_type": "public", "ups":
+        1713, "domain": "self.soccer", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Post
+        Match Thread", "can_mod_post": false, "score": 1713, "approved_by": null,
+        "thumbnail": "", "edited": 1529001305.0, "author_flair_css_class": "s1 23
+        team-23 country-eng", "author_flair_richtext": [{"e": "text", "t": "England"}],
+        "content_categories": null, "is_self": true, "mod_note": null, "created":
+        1529024145.0, "link_flair_type": "richtext", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;hr/&gt;\n\n&lt;h2&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;a href=\"https://redd.it/8hxkwo\"&gt;&lt;strong&gt;Russia&lt;/strong&gt;&lt;/a&gt;
+        5 - 0 &lt;a href=\"https://redd.it/8i6k21\"&gt;&lt;strong&gt;Saudi Arabia&lt;/strong&gt;&lt;/a&gt;
+        &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;&lt;/h2&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-ball\"&gt;&lt;/a&gt;
+        &lt;a href=\"https://www.dailymotion.com/video/x6lvxxn\"&gt;Gazinsky (12\u2019)&lt;/a&gt;,&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-ball\"&gt;&lt;/a&gt;&lt;a href=\"#icon-ball\"&gt;&lt;/a&gt; Cheryshev
+        (&lt;a href=\"https://www.dailymotion.com/video/x6lw0vp\"&gt;43\u2019&lt;/a&gt;,
+        &lt;a href=\"https://www.dailymotion.com/video/x6lw621\"&gt;90+1\u2019&lt;/a&gt;),&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-ball\"&gt;&lt;/a&gt; &lt;a href=\"https://www.dailymotion.com/video/x6lw4j9\"&gt;Dyzuba
+        (71\u2019)&lt;/a&gt;,&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-ball\"&gt;&lt;/a&gt;
+        &lt;a href=\"https://www.dailymotion.com/video/x6lw6eh\"&gt;Golovin (90+4\u2019)&lt;/a&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Goal
+        replays courtesy of &lt;a href=\"/u/BrilliantWealth\"&gt;/u/BrilliantWealth&lt;/a&gt;.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h3&gt;Two
+        bangers in a row... what the fuck.&lt;/h3&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-info\"&gt;&lt;/a&gt; &lt;strong&gt;Stadium:&lt;/strong&gt; &lt;a
+        href=\"https://en.wikipedia.org/wiki/Luzhniki_Stadium\"&gt;Stadion Luzhniki,
+        Moscow, Russia&lt;/a&gt;&lt;br/&gt;\n&lt;a href=\"#icon-whistle\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Referee:&lt;/strong&gt; &lt;a href=\"#sprite6-p7\"&gt;&lt;/a&gt;
+        Nestor Pitana  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-notes-big\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Starting 11&amp;#39;s&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#sprite6-p142\"&gt;&lt;/a&gt; &lt;strong&gt;Russia:&lt;/strong&gt;
+        Akinfeev, Fernandes, Kutepov, Igansevich, Zhirkov, Gazinskii, Zobnin, Samedov,
+        Golovin, Dzagoev, Smolov&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Saudi Arabia:&lt;/strong&gt; Al-Maiouf, Alburayk, Os.Hawsawi,
+        Om.Hawsawi, Al-Shahrani, Otayf, Al-Dawsari, Al-Faraj, Al-Jassam, Al-Shehri,
+        Al-Sahlawi &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-notes-big\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Subs&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Russia:&lt;/strong&gt; Gabulov, Lunev, Semenov, Cherysev, Kuziaev,
+        Kurdriashov, Granat, Al Miranchuk, An Miranchuk, Erokhin, Dzyuba, Smolnikov&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#sprite6-p150\"&gt;&lt;/a&gt; &lt;strong&gt;Saudi Arabia:&lt;/strong&gt;
+        Almosailem, Alowais, Manour, Ali, Hatan, Abdulmalek, Kanno, Alkaibari, Hussain,
+        Fahad, Muhannad, Motaz&lt;/p&gt;\n\n&lt;hr/&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "England", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qi58", "mod_reason_by": null, "removal_reason": null,
+        "link_flair_background_color": "", "id": "8r3fz9", "report_reasons": null,
+        "author": "LelouchNexus", "num_crossposts": 0, "num_comments": 1867, "send_replies":
+        true, "author_flair_text_color": "dark", "permalink": "/r/soccer/comments/8r3fz9/postmatch_thread_russia_vs_saudi_arabia_world_cup/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/soccer/comments/8r3fz9/postmatch_thread_russia_vs_saudi_arabia_world_cup/",
+        "subreddit_subscribers": 985689, "created_utc": 1528995345.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "A. Dzyuba
+        goal vs. Kingdom of Saudi Arabia ([3]-0)", "link_flair_richtext": [{"e": "text",
+        "t": "Media"}], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls":
+        6, "link_flair_css_class": "media", "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8r390v", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": "", "subreddit_type":
+        "public", "ups": 1324, "domain": "streamja.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Media",
+        "can_mod_post": false, "score": 1324, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 49 team-49 country-esp", "author_flair_richtext":
+        [{"e": "text", "t": "Spain"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529022711.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Spain", "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r390v",
+        "report_reasons": null, "author": "TomasRoncero", "num_crossposts": 2, "num_comments":
+        306, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r390v/a_dzyuba_goal_vs_kingdom_of_saudi_arabia_30/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://streamja.com/OBX7",
+        "subreddit_subscribers": 985689, "created_utc": 1528993911.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Neymar:
+        \"I''m not proud of my transfer fee, or the fact that I''m the most expensive
+        player ever. Looking only at transfer fees doesn''t help and doesn''t show
+        how good you really are. That''s money and nothing else, I can''t help it.
+        Personally, I would have paid less for myself.\"", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r0pvw", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": "", "subreddit_type": "public", "ups": 4517,
+        "domain": "goal.com", "media_embed": {}, "author_flair_template_id": null,
+        "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 4517, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 152 team-152 country-rus",
+        "author_flair_richtext": [{"e": "text", "t": "Russia"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1529000253.0, "link_flair_type":
+        "text", "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Russia", "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "id": "8r0pvw", "report_reasons": null, "author":
+        "AlwaysSnowyInSiberia", "num_crossposts": 0, "num_comments": 280, "send_replies":
+        true, "author_flair_text_color": "dark", "permalink": "/r/soccer/comments/8r0pvw/neymar_im_not_proud_of_my_transfer_fee_or_the/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "http://www.goal.com/en/news/neymar-i-wasnt-worth-222m/1xj8rrpuecl6t1g4vdzyp02c7x",
+        "subreddit_subscribers": 985689, "created_utc": 1528971453.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Cheryshev
+        is the first sub to ever score in the history of the inaugural match of the
+        World Cup.", "link_flair_richtext": [{"e": "text", "t": "Verified account"}],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        "twitter-verified", "downs": 0, "parent_whitelist_status": "all_ads", "hide_score":
+        false, "name": "t3_8r2x6i", "quarantine": false, "link_flair_text_color":
+        "dark", "author_flair_background_color": "", "subreddit_type": "public", "ups":
+        1195, "domain": "twitter.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Verified
+        account", "can_mod_post": false, "score": 1195, "approved_by": null, "thumbnail":
+        "", "edited": false, "author_flair_css_class": "s1 109 team-109 country-col",
+        "author_flair_richtext": [{"e": "text", "t": "Colombia"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1529020310.0, "link_flair_type":
+        "richtext", "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Colombia", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "link_flair_background_color":
+        "", "id": "8r2x6i", "report_reasons": null, "author": "rambambu", "num_crossposts":
+        0, "num_comments": 92, "send_replies": true, "author_flair_text_color": "dark",
+        "permalink": "/r/soccer/comments/8r2x6i/cheryshev_is_the_first_sub_to_ever_score_in_the/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/2010MisterChip/status/1007288930134298624",
+        "subreddit_subscribers": 985689, "created_utc": 1528991510.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Egypt coach:
+        Salah almost 100 percent likely to face Uruguay", "link_flair_richtext": [],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r1g7f", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        1824, "domain": "espn.co.uk", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 1824, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": null, "author_flair_richtext":
+        [], "content_categories": null, "is_self": false, "mod_note": null, "created":
+        1529008143.0, "link_flair_type": "text", "wls": 6, "post_categories": null,
+        "banned_by": null, "author_flair_type": "text", "contest_mode": false, "selftext_html":
+        null, "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": null, "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qi58", "mod_reason_by": null, "removal_reason": null,
+        "id": "8r1g7f", "report_reasons": null, "author": "novario", "num_crossposts":
+        0, "num_comments": 315, "send_replies": false, "author_flair_text_color":
+        null, "permalink": "/r/soccer/comments/8r1g7f/egypt_coach_salah_almost_100_percent_likely_to/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "http://www.espn.co.uk/football/egypt/story/3525490/mohamed-salah-almost-100-percent-likely-to-face-uruguay-egypt-coach",
+        "subreddit_subscribers": 985689, "created_utc": 1528979343.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "Dating back to when the World Cup first
+        started in 1930, the host nation has never lost its first match. And after
+        today''s blowout, Russia keeps that streak in tact.\n\nA complete list of
+        every host nation''s first game:\n\nYear | Host Nation | First Game\n--- |
+        --- | ---\n1930 | Uruguay | 1-0 victory vs. Peru\n1934 | Italy | 7-1 victory
+        vs. USA\n1938 | France | 3-1 victory vs. Belgium\n1950 | Brazil | 4-0 victory
+        vs. Mexico\n1954 | Switzerland | 2-1 victory vs. Italy\n1958 | Sweden | 3-0
+        victory vs. Mexico\n1962 | Chile | 3-1 victory vs. Switzerland\n1966 | England
+        | 0-0 draw vs. Uruguay\n1970 | Mexico | 0-0 draw vs. Soviet Union\n1974 |
+        West Germany | 1-0 victory vs. Chile\n1978 | Argentina | 2-1 victory vs. Hungary\n1982
+        | Spain | 1-1 draw vs. Honduras\n1986 | Mexico | 2-1 victory vs. Belgium\n1990
+        | Italy | 1-0 victory vs. Austria\n1994 | USA | 1-1 draw vs. Switzerland\n1998
+        | France | 3-0 victory vs. South Africa\n2002 | South Korea | 2-0 victory
+        vs. Poland\n2002 | Japan | 2-2 draw vs. Belgium\n2006 | Germany | 4-2 victory
+        vs. Costa Rica\n2010 | South Africa | 1-1 draw vs. Mexico\n2014 | Brazil |
+        3-1 victory vs. Croatia\n2018 | Russia | 5-0 victory vs. Saudi Arabia\n\nSecond
+        largest margin of victory in a host nation''s opening match in World Cup history.
+        Largest margin of victory in a host nation''s opening match while keeping
+        a shutout.", "user_reports": [], "saved": false, "mod_reason_title": null,
+        "gilded": 0, "clicked": false, "title": "The host nation remains unbeaten
+        in the opening match of the World Cup (22 matches, 16 wins, 6 draws)", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r3fsg", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        788, "domain": "self.soccer", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 788, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 29 team-29 country-eng", "author_flair_richtext":
+        [{"e": "text", "t": "Fulham"}], "content_categories": null, "is_self": true,
+        "mod_note": null, "created": 1529024113.0, "link_flair_type": "text", "wls":
+        6, "post_categories": null, "banned_by": null, "author_flair_type": "richtext",
+        "contest_mode": false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Dating
+        back to when the World Cup first started in 1930, the host nation has never
+        lost its first match. And after today&amp;#39;s blowout, Russia keeps that
+        streak in tact.&lt;/p&gt;\n\n&lt;p&gt;A complete list of every host nation&amp;#39;s
+        first game:&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Year&lt;/th&gt;\n&lt;th&gt;Host
+        Nation&lt;/th&gt;\n&lt;th&gt;First Game&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;1930&lt;/td&gt;\n&lt;td&gt;Uruguay&lt;/td&gt;\n&lt;td&gt;1-0
+        victory vs. Peru&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1934&lt;/td&gt;\n&lt;td&gt;Italy&lt;/td&gt;\n&lt;td&gt;7-1
+        victory vs. USA&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1938&lt;/td&gt;\n&lt;td&gt;France&lt;/td&gt;\n&lt;td&gt;3-1
+        victory vs. Belgium&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1950&lt;/td&gt;\n&lt;td&gt;Brazil&lt;/td&gt;\n&lt;td&gt;4-0
+        victory vs. Mexico&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1954&lt;/td&gt;\n&lt;td&gt;Switzerland&lt;/td&gt;\n&lt;td&gt;2-1
+        victory vs. Italy&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1958&lt;/td&gt;\n&lt;td&gt;Sweden&lt;/td&gt;\n&lt;td&gt;3-0
+        victory vs. Mexico&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1962&lt;/td&gt;\n&lt;td&gt;Chile&lt;/td&gt;\n&lt;td&gt;3-1
+        victory vs. Switzerland&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1966&lt;/td&gt;\n&lt;td&gt;England&lt;/td&gt;\n&lt;td&gt;0-0
+        draw vs. Uruguay&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1970&lt;/td&gt;\n&lt;td&gt;Mexico&lt;/td&gt;\n&lt;td&gt;0-0
+        draw vs. Soviet Union&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1974&lt;/td&gt;\n&lt;td&gt;West
+        Germany&lt;/td&gt;\n&lt;td&gt;1-0 victory vs. Chile&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1978&lt;/td&gt;\n&lt;td&gt;Argentina&lt;/td&gt;\n&lt;td&gt;2-1
+        victory vs. Hungary&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1982&lt;/td&gt;\n&lt;td&gt;Spain&lt;/td&gt;\n&lt;td&gt;1-1
+        draw vs. Honduras&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1986&lt;/td&gt;\n&lt;td&gt;Mexico&lt;/td&gt;\n&lt;td&gt;2-1
+        victory vs. Belgium&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1990&lt;/td&gt;\n&lt;td&gt;Italy&lt;/td&gt;\n&lt;td&gt;1-0
+        victory vs. Austria&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1994&lt;/td&gt;\n&lt;td&gt;USA&lt;/td&gt;\n&lt;td&gt;1-1
+        draw vs. Switzerland&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1998&lt;/td&gt;\n&lt;td&gt;France&lt;/td&gt;\n&lt;td&gt;3-0
+        victory vs. South Africa&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2002&lt;/td&gt;\n&lt;td&gt;South
+        Korea&lt;/td&gt;\n&lt;td&gt;2-0 victory vs. Poland&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2002&lt;/td&gt;\n&lt;td&gt;Japan&lt;/td&gt;\n&lt;td&gt;2-2
+        draw vs. Belgium&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2006&lt;/td&gt;\n&lt;td&gt;Germany&lt;/td&gt;\n&lt;td&gt;4-2
+        victory vs. Costa Rica&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2010&lt;/td&gt;\n&lt;td&gt;South
+        Africa&lt;/td&gt;\n&lt;td&gt;1-1 draw vs. Mexico&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2014&lt;/td&gt;\n&lt;td&gt;Brazil&lt;/td&gt;\n&lt;td&gt;3-1
+        victory vs. Croatia&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2018&lt;/td&gt;\n&lt;td&gt;Russia&lt;/td&gt;\n&lt;td&gt;5-0
+        victory vs. Saudi Arabia&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;Second
+        largest margin of victory in a host nation&amp;#39;s opening match in World
+        Cup history. Largest margin of victory in a host nation&amp;#39;s opening
+        match while keeping a shutout.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+        "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "Fulham", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qi58", "mod_reason_by": null, "removal_reason": null,
+        "id": "8r3fsg", "report_reasons": null, "author": "JaguarGator9", "num_crossposts":
+        0, "num_comments": 144, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/soccer/comments/8r3fsg/the_host_nation_remains_unbeaten_in_the_opening/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/soccer/comments/8r3fsg/the_host_nation_remains_unbeaten_in_the_opening/",
+        "subreddit_subscribers": 985689, "created_utc": 1528995313.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Kylian
+        Mbapp\u00e9: I dream of being trained by Ars\u00e8ne Wenger.", "link_flair_richtext":
+        [{"e": "text", "t": "Media"}], "subreddit_name_prefixed": "r/soccer", "hidden":
+        false, "pwls": 6, "link_flair_css_class": "twitter-verified media", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r10k7",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 1911, "domain": "twitter.com", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Media", "can_mod_post": false, "score": 1911, "approved_by":
+        null, "thumbnail": "", "edited": false, "author_flair_css_class": "s1 1 team-1
+        country-eng", "author_flair_richtext": [{"e": "text", "t": "Arsenal"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1529003712.0, "link_flair_type":
+        "richtext", "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Arsenal", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "link_flair_background_color":
+        "", "id": "8r10k7", "report_reasons": null, "author": "BenjaniMaples", "num_crossposts":
+        0, "num_comments": 161, "send_replies": false, "author_flair_text_color":
+        null, "permalink": "/r/soccer/comments/8r10k7/kylian_mbapp\u00e9_i_dream_of_being_trained_by_ars\u00e8ne/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/C8TV/status/1006981697177518082",
+        "subreddit_subscribers": 985689, "created_utc": 1528974912.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "God\u00edn:
+        \"I saw the play [when Salah was injured] and it seemed like one of many things
+        that happen. I lost three teeth and these things happen in football.\"", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r2c6p", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": "", "subreddit_type": "public", "ups": 863,
+        "domain": "ovaciondigital.com.uy", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 863, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 143 team-143 country-ury",
+        "author_flair_richtext": [{"e": "text", "t": "Uruguay"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1529015777.0, "link_flair_type":
+        "text", "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "Uruguay", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "id": "8r2c6p", "report_reasons":
+        null, "author": "elrubiojefe", "num_crossposts": 0, "num_comments": 116, "send_replies":
+        true, "author_flair_text_color": "dark", "permalink": "/r/soccer/comments/8r2c6p/god\u00edn_i_saw_the_play_when_salah_was_injured_and/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.ovaciondigital.com.uy/mundial/nuestra-preparacion-depende-jugador.html",
+        "subreddit_subscribers": 985689, "created_utc": 1528986977.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Russia
+        have recorded the second biggest victory by a host nation in their opening
+        match in WorldCup history, after Italy vs USA in 1934 (7-1).", "link_flair_richtext":
+        [{"e": "text", "t": "Verified account"}], "subreddit_name_prefixed": "r/soccer",
+        "hidden": false, "pwls": 6, "link_flair_css_class": "twitter-verified", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r3h7x",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        "", "subreddit_type": "public", "ups": 533, "domain": "twitter.com", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Verified account", "can_mod_post": false, "score":
+        533, "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        "s1 109 team-109 country-col", "author_flair_richtext": [{"e": "text", "t":
+        "Colombia"}], "content_categories": null, "is_self": false, "mod_note": null,
+        "created": 1529024391.0, "link_flair_type": "richtext", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "Colombia", "rte_mode": "markdown", "visited": false, "num_reports": null,
+        "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by": null,
+        "removal_reason": null, "link_flair_background_color": "", "id": "8r3h7x",
+        "report_reasons": null, "author": "rambambu", "num_crossposts": 0, "num_comments":
+        118, "send_replies": true, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r3h7x/russia_have_recorded_the_second_biggest_victory/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/OptaJoe/status/1007305780058574849",
+        "subreddit_subscribers": 985689, "created_utc": 1528995591.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Denis Cheryshev
+        wins Man of the Match", "link_flair_richtext": [{"e": "text", "t": "Official
+        media"}], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls":
+        6, "link_flair_css_class": "official media s7 401 team-2473 country-", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r3jp2",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        "", "subreddit_type": "public", "ups": 477, "domain": "twitter.com", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Official media", "can_mod_post": false, "score": 477,
+        "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        "s1 23 team-23 country-eng", "author_flair_richtext": [{"e": "text", "t":
+        "England"}], "content_categories": null, "is_self": false, "mod_note": null,
+        "created": 1529024860.0, "link_flair_type": "richtext", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "England", "rte_mode": "markdown", "visited": false, "num_reports": null,
+        "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by": null,
+        "removal_reason": null, "link_flair_background_color": "", "id": "8r3jp2",
+        "report_reasons": null, "author": "Gungerz", "num_crossposts": 0, "num_comments":
+        61, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r3jp2/denis_cheryshev_wins_man_of_the_match/", "whitelist_status":
+        "all_ads", "stickied": false, "url": "https://twitter.com/FIFAWorldCup/status/1007308366740381699",
+        "subreddit_subscribers": 985689, "created_utc": 1528996060.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Two Charlton
+        players arrested over rape of 19 year old girl in Ibiza", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r10w5", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": "", "subreddit_type": "public", "ups": 1294,
+        "domain": "mirror.co.uk", "media_embed": {}, "author_flair_template_id": null,
+        "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 1294, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 23 team-23 country-eng", "author_flair_richtext":
+        [{"e": "text", "t": "England"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529003812.0, "link_flair_type": "text", "wls":
+        6, "post_categories": null, "banned_by": null, "author_flair_type": "richtext",
+        "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "England", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "id": "8r10w5", "report_reasons":
+        null, "author": "Skablouis", "num_crossposts": 0, "num_comments": 448, "send_replies":
+        false, "author_flair_text_color": "dark", "permalink": "/r/soccer/comments/8r10w5/two_charlton_players_arrested_over_rape_of_19/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.mirror.co.uk/news/world-news/charlton-athletic-footballers-arrive-ibiza-12704719.amp?__twitter_impression=true",
+        "subreddit_subscribers": 985689, "created_utc": 1528975012.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "#TheDecision.
+        Griezmann will reveal his future tonight at 9:15pm CET", "link_flair_richtext":
+        [{"e": "text", "t": "Verified account"}], "subreddit_name_prefixed": "r/soccer",
+        "hidden": false, "pwls": 6, "link_flair_css_class": "twitter-verified", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r1jid",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        "", "subreddit_type": "public", "ups": 907, "domain": "twitter.com", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Verified account", "can_mod_post": false, "score":
+        907, "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        "s1 60 team-60 country-arg", "author_flair_richtext": [{"e": "text", "t":
+        "Argentina"}], "content_categories": null, "is_self": false, "mod_note": null,
+        "created": 1529009027.0, "link_flair_type": "richtext", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "Argentina", "rte_mode": "markdown", "visited": false, "num_reports": null,
+        "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by": null,
+        "removal_reason": null, "link_flair_background_color": "", "id": "8r1jid",
+        "report_reasons": null, "author": "guillemcera1", "num_crossposts": 1, "num_comments":
+        639, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r1jid/thedecision_griezmann_will_reveal_his_future/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/MovistarPlus/status/1007240185220861952",
+        "subreddit_subscribers": 985689, "created_utc": 1528980227.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "According
+        to The Times, tickets at the US/Canada/Mexico world cup will average $431,
+        in Morocco the average would have been $200", "link_flair_richtext": [], "subreddit_name_prefixed":
+        "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r1cne",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 938, "domain": "thetimes.co.uk",
+        "media_embed": {}, "author_flair_template_id": null, "is_original_content":
+        false, "secure_media": null, "is_reddit_media_domain": false, "category":
+        null, "secure_media_embed": {}, "link_flair_text": null, "can_mod_post": false,
+        "score": 938, "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        "s1 379 team-379 country-prk", "author_flair_richtext": [{"e": "text", "t":
+        "North Korea"}], "content_categories": null, "is_self": false, "mod_note":
+        null, "created": 1529007202.0, "link_flair_type": "text", "wls": 6, "post_categories":
+        null, "banned_by": null, "author_flair_type": "richtext", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "North Korea", "rte_mode": "markdown", "visited": false, "num_reports": null,
+        "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by": null,
+        "removal_reason": null, "id": "8r1cne", "report_reasons": null, "author":
+        "combatjohnny", "num_crossposts": 0, "num_comments": 505, "send_replies":
+        true, "author_flair_text_color": null, "permalink": "/r/soccer/comments/8r1cne/according_to_the_times_tickets_at_the/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.thetimes.co.uk/edition/sport/united-states-canada-mexico-beat-morocco-for-right-to-host-2026-world-cup-zvzs7fpgh",
+        "subreddit_subscribers": 985689, "created_utc": 1528978402.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Mohamed
+        Salah fit for Egypt''s opener against Uruguay", "link_flair_richtext": [],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8r1s60", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": "", "subreddit_type": "public", "ups": 760,
+        "domain": "bbc.co.uk", "media_embed": {}, "author_flair_template_id": null,
+        "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 760, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 23 team-23 country-eng", "author_flair_richtext":
+        [{"e": "text", "t": "England"}], "content_categories": null, "is_self": false,
+        "mod_note": null, "created": 1529011166.0, "link_flair_type": "text", "wls":
+        6, "post_categories": null, "banned_by": null, "author_flair_type": "richtext",
+        "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "England", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "id": "8r1s60", "report_reasons":
+        null, "author": "NPFTW", "num_crossposts": 0, "num_comments": 78, "send_replies":
+        false, "author_flair_text_color": "dark", "permalink": "/r/soccer/comments/8r1s60/mohamed_salah_fit_for_egypts_opener_against/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.bbc.co.uk/sport/football/44408321",
+        "subreddit_subscribers": 985689, "created_utc": 1528982366.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "[](#icon-info-big) **Competition:** FIFA
+        World Cup\n\n[](#icon-clock-big) **Kick Off Times:** 16:00 BST, 18:00 Local
+        Time, 11:00 EST\n \n[](#icon-info-big) **Venue:**  Luzhniki Stadium, Moscow,
+        Russia\n \n[](#icon-whistle-big) **Referee:** Pitana Nestor (ARG)\n \n[](#icon-info-big)
+        **Other Links:**\n \n*If I have made any mistakes, PM me*\n\n----\n[](#icon-star-big)
+        **Starting 11**\n \n[Russia](#bar-12-red) [](#sprite6-p142) | Info | [Saudi
+        Arabia](#bar-12-green) [](#sprite6-p150) | Info\n:------:|:------:|:------:|:-----:\nIgor
+        Akinfeev|      |Abdullah Al-Mayouf|\nMario Fernandez| |Osama Hawsawi|\nIlya
+        Kutepov|      |Omar Hawsawi|\nSergey Ignashevich|      |Mohammed Al-Breik|\nYuri
+        Zhirkov|     |Salman Al-Faraj|\nYuri Gazinskiy|    |Yahya Al-Shehri|\nRonan
+        Zonin|     |Mohammad Al-Sahlawi|\nAlexander Samedov|  |Yasser Al-Shahrani|\nAlexander
+        Golovin|   |Abdullah Otayf|\nAlan Dzagoev|    |Taisir Al-Jassim|\nFeder Smolov|    |Salem
+        Al-Dawsari|\n \n---", "user_reports": [], "saved": false, "mod_reason_title":
+        null, "gilded": 0, "clicked": false, "title": "[Pre-Match Thread] Russia vs
+        Saudi Arabia (FIFA World Cup)", "link_flair_richtext": [{"e": "text", "t":
+        "Pre Match Thread"}], "subreddit_name_prefixed": "r/soccer", "hidden": false,
+        "pwls": 6, "link_flair_css_class": "prematch", "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8r25e1", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": "", "subreddit_type":
+        "public", "ups": 644, "domain": "self.soccer", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Pre
+        Match Thread", "can_mod_post": false, "score": 644, "approved_by": null, "thumbnail":
+        "", "edited": 1528986454.0, "author_flair_css_class": "s1 7 team-7 country-usa",
+        "author_flair_richtext": [{"e": "text", "t": "United States"}], "content_categories":
+        null, "is_self": true, "mod_note": null, "created": 1529014262.0, "link_flair_type":
+        "richtext", "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;&lt;a href=\"#icon-info-big\"&gt;&lt;/a&gt; &lt;strong&gt;Competition:&lt;/strong&gt;
+        FIFA World Cup&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-clock-big\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Kick Off Times:&lt;/strong&gt; 16:00 BST, 18:00 Local Time,
+        11:00 EST&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-info-big\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Venue:&lt;/strong&gt;  Luzhniki Stadium, Moscow, Russia&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-whistle-big\"&gt;&lt;/a&gt; &lt;strong&gt;Referee:&lt;/strong&gt;
+        Pitana Nestor (ARG)&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"#icon-info-big\"&gt;&lt;/a&gt;
+        &lt;strong&gt;Other Links:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;If
+        I have made any mistakes, PM me&lt;/em&gt;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a
+        href=\"#icon-star-big\"&gt;&lt;/a&gt; &lt;strong&gt;Starting 11&lt;/strong&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"center\"&gt;&lt;a href=\"#bar-12-red\"&gt;Russia&lt;/a&gt; &lt;a href=\"#sprite6-p142\"&gt;&lt;/a&gt;&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Info&lt;/th&gt;\n&lt;th align=\"center\"&gt;&lt;a href=\"#bar-12-green\"&gt;Saudi
+        Arabia&lt;/a&gt; &lt;a href=\"#sprite6-p150\"&gt;&lt;/a&gt;&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Info&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Igor Akinfeev&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Abdullah Al-Mayouf&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Mario Fernandez&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Osama Hawsawi&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Ilya Kutepov&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Omar Hawsawi&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Sergey Ignashevich&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Mohammed Al-Breik&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Yuri Zhirkov&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Salman Al-Faraj&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Yuri Gazinskiy&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Yahya Al-Shehri&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Ronan Zonin&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Mohammad Al-Sahlawi&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Alexander Samedov&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Yasser Al-Shahrani&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Alexander Golovin&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Abdullah Otayf&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Alan Dzagoev&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Taisir Al-Jassim&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;Feder Smolov&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Salem Al-Dawsari&lt;/td&gt;\n&lt;td align=\"center\"&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;hr/&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "United States", "rte_mode": "markdown", "visited": false, "num_reports":
+        null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r25e1",
+        "report_reasons": null, "author": "ApolloX-2", "num_crossposts": 0, "num_comments":
+        1345, "send_replies": false, "author_flair_text_color": "dark", "permalink":
+        "/r/soccer/comments/8r25e1/prematch_thread_russia_vs_saudi_arabia_fifa_world/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/soccer/comments/8r25e1/prematch_thread_russia_vs_saudi_arabia_fifa_world/",
+        "subreddit_subscribers": 985689, "created_utc": 1528985462.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "[Source](https://en.wikipedia.org/wiki/Saudi_Arabia_at_the_FIFA_World_Cup#FIFA_World_Cup_record_2)\n\nAlong
+        with the 5-0 loss to Russia, they had an 8-0 loss against Germany in 2002.
+        They haven''t won a World Cup match since 1994 (1-0 victory against Belgium).\n\nThe
+        draws in that stretch, for those curious, were a 2-2 draw against South Africa
+        in 1998 and a 2-2 draw against Tunisia in 2006.\n\nResults in that stretch:\n\nYear
+        | Opponent | Result\n--- | --- | ---\n1994 | Sweden | Loss 3-1\n1998 | Denmark
+        | Loss 1-0\n1998 | France | Loss 4-0\n1998 | South Africa | Draw 2-2\n2002
+        | Germany | Loss 8-0\n2002 | Cameroon | Loss 1-0\n2002 | Republic of Ireland
+        | Loss 3-0\n2006 | Tunisia | Draw 2-2\n2006 | Ukraine | Loss 4-0\n2006 | Spain
+        | Loss 1-0\n2018 | Russia | Loss 5-0", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "In Saudi
+        Arabia''s last 11 World Cup matches, they have been outscored 34-5 (9 losses,
+        2 draws)", "link_flair_richtext": [], "subreddit_name_prefixed": "r/soccer",
+        "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8r3h82", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": null, "subreddit_type":
+        "public", "ups": 384, "domain": "self.soccer", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 384, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "s1 29 team-29 country-eng", "author_flair_richtext":
+        [{"e": "text", "t": "Fulham"}], "content_categories": null, "is_self": true,
+        "mod_note": null, "created": 1529024391.0, "link_flair_type": "text", "wls":
+        6, "post_categories": null, "banned_by": null, "author_flair_type": "richtext",
+        "contest_mode": false, "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a
+        href=\"https://en.wikipedia.org/wiki/Saudi_Arabia_at_the_FIFA_World_Cup#FIFA_World_Cup_record_2\"&gt;Source&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Along
+        with the 5-0 loss to Russia, they had an 8-0 loss against Germany in 2002.
+        They haven&amp;#39;t won a World Cup match since 1994 (1-0 victory against
+        Belgium).&lt;/p&gt;\n\n&lt;p&gt;The draws in that stretch, for those curious,
+        were a 2-2 draw against South Africa in 1998 and a 2-2 draw against Tunisia
+        in 2006.&lt;/p&gt;\n\n&lt;p&gt;Results in that stretch:&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Year&lt;/th&gt;\n&lt;th&gt;Opponent&lt;/th&gt;\n&lt;th&gt;Result&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;1994&lt;/td&gt;\n&lt;td&gt;Sweden&lt;/td&gt;\n&lt;td&gt;Loss
+        3-1&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1998&lt;/td&gt;\n&lt;td&gt;Denmark&lt;/td&gt;\n&lt;td&gt;Loss
+        1-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1998&lt;/td&gt;\n&lt;td&gt;France&lt;/td&gt;\n&lt;td&gt;Loss
+        4-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;1998&lt;/td&gt;\n&lt;td&gt;South
+        Africa&lt;/td&gt;\n&lt;td&gt;Draw 2-2&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2002&lt;/td&gt;\n&lt;td&gt;Germany&lt;/td&gt;\n&lt;td&gt;Loss
+        8-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2002&lt;/td&gt;\n&lt;td&gt;Cameroon&lt;/td&gt;\n&lt;td&gt;Loss
+        1-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2002&lt;/td&gt;\n&lt;td&gt;Republic
+        of Ireland&lt;/td&gt;\n&lt;td&gt;Loss 3-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2006&lt;/td&gt;\n&lt;td&gt;Tunisia&lt;/td&gt;\n&lt;td&gt;Draw
+        2-2&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2006&lt;/td&gt;\n&lt;td&gt;Ukraine&lt;/td&gt;\n&lt;td&gt;Loss
+        4-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2006&lt;/td&gt;\n&lt;td&gt;Spain&lt;/td&gt;\n&lt;td&gt;Loss
+        1-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2018&lt;/td&gt;\n&lt;td&gt;Russia&lt;/td&gt;\n&lt;td&gt;Loss
+        5-0&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "Fulham", "rte_mode": "markdown", "visited": false, "num_reports": null, "distinguished":
+        null, "subreddit_id": "t5_2qi58", "mod_reason_by": null, "removal_reason":
+        null, "id": "8r3h82", "report_reasons": null, "author": "JaguarGator9", "num_crossposts":
+        0, "num_comments": 212, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/soccer/comments/8r3h82/in_saudi_arabias_last_11_world_cup_matches_they/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/soccer/comments/8r3h82/in_saudi_arabias_last_11_world_cup_matches_they/",
+        "subreddit_subscribers": 985689, "created_utc": 1528995591.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "BBC: \"An
+        English-led home nations bid for the 2030 #WorldCup is ''definitely on the
+        radar''.\"", "link_flair_richtext": [{"e": "text", "t": "Verified account"}],
+        "subreddit_name_prefixed": "r/soccer", "hidden": false, "pwls": 6, "link_flair_css_class":
+        "twitter-verified", "downs": 0, "parent_whitelist_status": "all_ads", "hide_score":
+        false, "name": "t3_8r1wpt", "quarantine": false, "link_flair_text_color":
+        "dark", "author_flair_background_color": "", "subreddit_type": "public", "ups":
+        692, "domain": "twitter.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": "Verified
+        account", "can_mod_post": false, "score": 692, "approved_by": null, "thumbnail":
+        "", "edited": false, "author_flair_css_class": "s1 23 team-23 country-eng",
+        "author_flair_richtext": [{"e": "text", "t": "England"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1529012295.0, "link_flair_type":
+        "richtext", "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "richtext", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": "England", "rte_mode": "markdown", "visited":
+        false, "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58",
+        "mod_reason_by": null, "removal_reason": null, "link_flair_background_color":
+        "", "id": "8r1wpt", "report_reasons": null, "author": "LelouchNexus", "num_crossposts":
+        0, "num_comments": 427, "send_replies": true, "author_flair_text_color": "dark",
+        "permalink": "/r/soccer/comments/8r1wpt/bbc_an_englishled_home_nations_bid_for_the_2030/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/BBCSport/status/1007254063669530625",
+        "subreddit_subscribers": 985689, "created_utc": 1528983495.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "soccer", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Mourinho:
+        \"One thing is Ronaldo for Portugal. Another is Ronaldo with Real Madrid.
+        We don''t have a Modric or a Kroos.\"", "link_flair_richtext": [{"e": "text",
+        "t": "Unverified account"}], "subreddit_name_prefixed": "r/soccer", "hidden":
+        false, "pwls": 6, "link_flair_css_class": "twitter-unverified", "downs": 0,
+        "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8r48r0",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 270, "domain": "twitter.com", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "Unverified account", "can_mod_post": false, "score":
+        270, "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        null, "author_flair_richtext": [], "content_categories": null, "is_self":
+        false, "mod_note": null, "created": 1529030538.0, "link_flair_type": "richtext",
+        "wls": 6, "post_categories": null, "banned_by": null, "author_flair_type":
+        "text", "contest_mode": false, "selftext_html": null, "likes": null, "suggested_sort":
+        null, "banned_at_utc": null, "view_count": null, "archived": false, "no_follow":
+        false, "is_crosspostable": false, "pinned": false, "over_18": false, "media":
+        null, "media_only": false, "can_gild": false, "spoiler": false, "locked":
+        false, "author_flair_text": null, "rte_mode": "markdown", "visited": false,
+        "num_reports": null, "distinguished": null, "subreddit_id": "t5_2qi58", "mod_reason_by":
+        null, "removal_reason": null, "link_flair_background_color": "", "id": "8r48r0",
+        "report_reasons": null, "author": "GilsWorld", "num_crossposts": 0, "num_comments":
+        157, "send_replies": true, "author_flair_text_color": null, "permalink": "/r/soccer/comments/8r48r0/mourinho_one_thing_is_ronaldo_for_portugal/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/sistoney67/status/1007313455651737600",
+        "subreddit_subscribers": 985689, "created_utc": 1529001738.0, "mod_reports":
+        [], "is_video": false}}], "after": "t3_8r48r0", "before": null}}'
+    http_version: 
+  recorded_at: Thu, 14 Jun 2018 21:12:49 GMT
+recorded_with: VCR 4.0.0

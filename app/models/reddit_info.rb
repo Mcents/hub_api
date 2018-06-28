@@ -9,7 +9,6 @@ class RedditInfo
     RedditService.new.soccer_info['data']['children'].each do |raw|
       create_hash_structure(raw)
     end
-    require 'pry';binding.pry
   end
 
   def create_hash_structure(data)
@@ -17,5 +16,6 @@ class RedditInfo
     hash['title'] = data['data']['title']
     hash['score'] = data['data']['score']
     soccer_array << hash
+    require 'pry';binding.pry
   end
 end

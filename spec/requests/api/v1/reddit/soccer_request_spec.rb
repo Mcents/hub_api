@@ -8,11 +8,10 @@ describe 'SoccerController' do
 
       get "/api/v1/reddit/soccer"
 
-      merchant_json = JSON.parse(response.body)
-      require 'pry';binding.pry
+      soccer_json = JSON.parse(response.body)
 
       expect(response).to be_success
-      expect(merchant_json['id']).to eq(merchant1.id)
+      expect(soccer_json.count).to eq(12)
     end
   end
 end

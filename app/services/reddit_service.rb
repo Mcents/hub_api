@@ -14,7 +14,7 @@ class RedditService
 
   #a['data']['children']
   def soccer_info
-    parse(conn.get("/r/soccer/hot.json?sr_detail"))
+    parse(conn.get("/r/soccer/hot.json?sr_detail&limit=10"))
   end
 
   private

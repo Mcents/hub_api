@@ -16,6 +16,5 @@ class RedditInfo
     hash['title'] = data['data']['title']
     hash['score'] = data['data']['score']
     soccer_array << hash
-    require 'pry';binding.pry
   end
 end

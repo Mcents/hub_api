@@ -1,4 +1,4 @@
-class RedditInfo
+class RedditSoccerInfo
   attr_reader :soccer_array
 
   def initialize(soccer_atts={})
@@ -6,7 +6,7 @@ class RedditInfo
   end
 
   def soccer_info_hash
-    RedditService.new.soccer_info['data']['children'].each do |raw|
+    RedditService.new.soccer_feed['data']['children'].each do |raw|
       create_hash_structure(raw)
     end
   end

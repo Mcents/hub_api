@@ -5,7 +5,7 @@ describe RedditService do
     it 'returns r/soccer feed' do
       VCR.use_cassette("soccer_info") do
 
-        soccer_info = RedditService.new.soccer_info
+        soccer_info = RedditService.new.soccer_feed
 
         expect(soccer_info.class).to eq(Hash)
       end

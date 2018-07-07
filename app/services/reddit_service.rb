@@ -12,8 +12,7 @@ class RedditService
     end
   end
 
-  #a['data']['children']
-  def soccer_info
+  def soccer_feed
     parse(conn.get("/r/soccer/hot.json?sr_detail&limit=10"))
   end
 

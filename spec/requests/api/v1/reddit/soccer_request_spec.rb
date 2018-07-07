@@ -4,7 +4,7 @@ describe 'SoccerController' do
   context "soccer_info" do
     it "returns the top posts for r/soccer" do
 
-      RedditService.new.soccer_info
+      RedditService.new.soccer_feed
 
       get "/api/v1/reddit/soccer"
 

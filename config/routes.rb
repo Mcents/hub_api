@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
       namespace :reddit do
         get '/soccer', to: 'soccer#index'
+        get '/hockey', to: 'hockey#index'
       end
     end
   end

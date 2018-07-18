@@ -8,6 +8,7 @@ describe RedditService do
         soccer_info = RedditService.new.soccer_feed
 
         expect(soccer_info.class).to eq(Hash)
+        expect(soccer_info).to have_key("data")
       end
     end
   end
@@ -16,9 +17,10 @@ describe RedditService do
     it 'returns r/hockey feed' do
       VCR.use_cassette("hocker_info") do
 
-        soccer_info = RedditService.new.hockey_feed
+        hockey_info = RedditService.new.hockey_feed
 
-        expect(soccer_info.class).to eq(Hash)
+        expect(hockey_info.class).to eq(Hash)
+        expect(hockey_info).to have_key("data")
       end
     end
   end

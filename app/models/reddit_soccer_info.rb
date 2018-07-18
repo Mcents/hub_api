@@ -9,6 +9,7 @@ class RedditSoccerInfo
     RedditService.new.soccer_feed['data']['children'].each do |raw|
       create_hash_structure(raw)
     end
+    soccer_array
   end
 
   def create_hash_structure(data)

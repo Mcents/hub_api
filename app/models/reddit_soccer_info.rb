@@ -16,6 +16,8 @@ class RedditSoccerInfo
     hash = {}
     hash['title'] = data['data']['title']
     hash['score'] = data['data']['score']
+    hash['url']   = data['data']['url']
+    hash['body']  = data['data']['selftext']
     soccer_array << hash
   end
 end

@@ -10,7 +10,7 @@ describe 'HockeyController' do
 
       hockey_json = JSON.parse(response.body)
 
-      expect(response).to be_success
+      expect(response).to have_http_status(200)
       expect(hockey_json.count).to eq(12)
     end
   end

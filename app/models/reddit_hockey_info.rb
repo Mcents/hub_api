@@ -16,6 +16,8 @@ class RedditHockeyInfo
     hash = {}
     hash['title'] = data['data']['title']
     hash['score'] = data['data']['score']
+    hash['url']   = data['data']['url']
+    hash['body']  = data['data']['selftext']
     hockey_array << hash
   end
 end

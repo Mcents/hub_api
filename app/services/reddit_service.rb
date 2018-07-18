@@ -16,6 +16,10 @@ class RedditService
     parse(conn.get("/r/soccer/hot.json?sr_detail&limit=10"))
   end
 
+  def hockey_feed
+    parse(conn.get("r/hockey/hot.json?sr_detail&limit=10"))
+  end
+
   private
 
   def parse(response)

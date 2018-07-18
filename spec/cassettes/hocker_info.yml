@@ -1,0 +1,572 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://reddit.com/r/hockey/hot.json?limit=10&sr_detail
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Retry-After:
+      - '0'
+      Location:
+      - https://www.reddit.com/r/hockey/hot.json?limit=10&sr_detail
+      Content-Length:
+      - '0'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 18 Jul 2018 01:52:37 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+      X-Served-By:
+      - cache-iad2634-IAD
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1531878758.640772,VS0,VE0
+      Cache-Control:
+      - private, max-age=3600
+      Server:
+      - snooserv
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 18 Jul 2018 01:52:37 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/hockey/hot.json?limit=10&sr_detail
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=YJ1fVYfdJRnGCqaeiz; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=00000000001srn7arm.2.1531878758849.Z0FBQUFBQmJUcDFtMkxWR00zZzZRWUoyeW4xRzE5cThueks1ODBhX3ZZLUdlYWdfYU5PaHB1M3BremJ2VzlJd2EwODk2NW1Ca0JqRmEtZFhaVDREblBqSk5EZS1zUlVQelFuUWlsZ2tzclAyb1Z1cG9Ba0VQd3lZbGhLZEtVaDRabndXZmgtUTJ4M24;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Fri, 17-Jul-2020 01:52:38
+        GMT; secure
+      - session_tracker=JPyASKLTbgnQ00igJi.0.1531878758845.Z0FBQUFBQmJUcDFtb1hpY1VWbHNGNnBaeUhBRHlvLXRlTTBQeHp2enA3cEZMMzVtUnQwWEd0WEFnX2xOTXltbHZtOTVKOExDMXBxVnZYdzZ5azJCT1dFS3RVMHRQMXBGTFFBSW5zYkZzOThuZzk4QUE3UG81Y01ZQ2lSU1FtdlhzNXBGbTEzSkx1WEQ;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Wed, 18-Jul-2018 03:52:38
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Moose
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '6117'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 18 Jul 2018 01:52:38 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-ewr18145-EWR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1531878759.838905,VS0,VE102
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "dist": 12, "children":
+        [{"kind": "t3", "data": {"approved_at_utc": null, "subreddit": "hockey", "selftext":
+        "**Roast Schedule:**\n\n[Washington Capitals - 6/28](https://www.reddit.com/r/hockey/comments/8ujrwx/offseason_the_rhockey_roast_of_the_washington/)\n\n[Vegas
+        Golden Knights - 6/29](https://www.reddit.com/r/hockey/comments/8ut6qa/offseason_the_rhockey_roast_of_the_vegas_golden/?st=JJ0JAWVA&amp;sh=a6efb60d)\n\n[Winnipeg
+        Jets - 6/30](https://www.reddit.com/r/hockey/comments/8v20c6/offseason_the_rhockey_roast_of_the_winnipeg_jets/?st=JJ3E8RO9&amp;sh=1b640a92)\n\n[Tampa
+        Bay Lightning - 7/1](https://www.reddit.com/r/hockey/comments/8vdke0/offseason_the_rhockey_roast_of_the_tampa_bay/?st=JJ48IMFB&amp;sh=e2115aea)\n\n[Nashville
+        Predators - 7/2](https://www.reddit.com/r/hockey/comments/8vm4nx/offseason_the_rhockey_roast_of_the_nashville/)\n\n[Boston
+        Bruins - 7/3](https://www.reddit.com/r/hockey/comments/8vtb31/offseason_the_rhockey_roast_of_the_boston_bruins/)\n\n[Toronto
+        Maple Leafs - 7/4](https://www.reddit.com/r/hockey/comments/8w2huz/offseason_the_rhockey_roast_of_the_toronto_maple/)\n\n[Minnesota
+        Wild - 7/5](https://www.reddit.com/r/hockey/comments/8wamc0/offseason_the_rhockey_roast_of_the_minnesota_wild/)\n\n[Anaheim
+        Ducks - 7/6](https://www.reddit.com/r/hockey/comments/8wki6a/offseason_the_rhockey_roast_of_the_anaheim_ducks/?st=JJBJ6M64&amp;sh=56c1443f)\n\n[Pittsburgh
+        Penguins - 7/7](https://www.reddit.com/r/hockey/comments/8wtwdu/offseason_the_rhockey_roast_of_the_pittsburgh/?st=JJCZG4RO&amp;sh=9a81834c)\n\n[San
+        Jose Sharks - 7/8](https://www.reddit.com/r/hockey/comments/8x28le/offseason_the_rhockey_roast_of_the_san_jose/)\n\n[Los
+        Angeles Kings - 7/9](https://www.reddit.com/r/hockey/comments/8xcrk2/offseason_the_rhockey_roast_of_the_los_angeles/)\n\n[Philadelphia
+        Flyers - 7/10](https://www.reddit.com/r/hockey/comments/8xq5ga/offseason_the_rhockey_roast_of_the_philadelphia/)\n\n[Columbus
+        Blue Jackets - 7/11](https://www.reddit.com/r/hockey/comments/8y0dz4/offseason_the_rhockey_roast_of_the_columbus_blue/)\n\n[New
+        Jersey Devils - 7/12](https://www.reddit.com/r/hockey/comments/8yaay0/offseason_the_rhockey_roast_of_the_new_jersey/)\n\n[Colorado
+        Avalanche - 7/13](https://www.reddit.com/r/hockey/comments/8ykovs/offseason_the_rhockey_roast_of_the_colorado/)\n\n[Florida
+        Panthers - 7/14](https://www.reddit.com/r/hockey/comments/8ytwvq/offseason_the_rhockey_roast_of_the_florida/)\n\n[St.
+        Louis Blues - 7/15](https://www.reddit.com/r/hockey/comments/8z2ieb/offseason_the_rhockey_roast_of_the_st_louis_blues/)\n\n[Dallas
+        Stars - 7/16](https://www.reddit.com/r/hockey/comments/8zbl66/offseason_the_rhockey_roast_of_the_dallas_stars/)\n\nCalgary
+        Flames - 7/17\n\nNew York Islanders - 7/18\n\nEdmonton Oilers - 7/19\n\nNew
+        York Rangers - 7/20\n\nChicago Blackhawks - 7/21\n\nVancouver Canucks - 7/22\n\nDetroit
+        Red Wings - 7/23\n\nArizona Coyotes - 7/24\n\nOttawa Senators - 7/25\n\nMontreal
+        Canadiens - 7/26\n\nCarolina Hurricanes - 7/27\n\nBuffalo Sabres - 7/28\n\nHave
+        at it!", "user_reports": [], "saved": false, "mod_reason_title": null, "gilded":
+        0, "clicked": false, "title": "Off-Season: The r/hockey Roast of the Calgary
+        Flames (20/31)", "link_flair_richtext": [], "subreddit_name_prefixed": "r/hockey",
+        "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8zlsai", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": null, "subreddit_type":
+        "public", "ups": 91, "domain": "self.hockey", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 91, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "NHL-TBL6-sheet2-col13-row15",
+        "author_flair_richtext": [{"e": "text", "t": "TBL - NHL"}], "content_categories":
+        null, "is_self": true, "mod_note": null, "created": 1531867977.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_q0szi", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;Roast
+        Schedule:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8ujrwx/offseason_the_rhockey_roast_of_the_washington/\"&gt;Washington
+        Capitals - 6/28&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8ut6qa/offseason_the_rhockey_roast_of_the_vegas_golden/?st=JJ0JAWVA&amp;amp;sh=a6efb60d\"&gt;Vegas
+        Golden Knights - 6/29&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8v20c6/offseason_the_rhockey_roast_of_the_winnipeg_jets/?st=JJ3E8RO9&amp;amp;sh=1b640a92\"&gt;Winnipeg
+        Jets - 6/30&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8vdke0/offseason_the_rhockey_roast_of_the_tampa_bay/?st=JJ48IMFB&amp;amp;sh=e2115aea\"&gt;Tampa
+        Bay Lightning - 7/1&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8vm4nx/offseason_the_rhockey_roast_of_the_nashville/\"&gt;Nashville
+        Predators - 7/2&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8vtb31/offseason_the_rhockey_roast_of_the_boston_bruins/\"&gt;Boston
+        Bruins - 7/3&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8w2huz/offseason_the_rhockey_roast_of_the_toronto_maple/\"&gt;Toronto
+        Maple Leafs - 7/4&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8wamc0/offseason_the_rhockey_roast_of_the_minnesota_wild/\"&gt;Minnesota
+        Wild - 7/5&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8wki6a/offseason_the_rhockey_roast_of_the_anaheim_ducks/?st=JJBJ6M64&amp;amp;sh=56c1443f\"&gt;Anaheim
+        Ducks - 7/6&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8wtwdu/offseason_the_rhockey_roast_of_the_pittsburgh/?st=JJCZG4RO&amp;amp;sh=9a81834c\"&gt;Pittsburgh
+        Penguins - 7/7&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8x28le/offseason_the_rhockey_roast_of_the_san_jose/\"&gt;San
+        Jose Sharks - 7/8&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8xcrk2/offseason_the_rhockey_roast_of_the_los_angeles/\"&gt;Los
+        Angeles Kings - 7/9&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8xq5ga/offseason_the_rhockey_roast_of_the_philadelphia/\"&gt;Philadelphia
+        Flyers - 7/10&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8y0dz4/offseason_the_rhockey_roast_of_the_columbus_blue/\"&gt;Columbus
+        Blue Jackets - 7/11&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8yaay0/offseason_the_rhockey_roast_of_the_new_jersey/\"&gt;New
+        Jersey Devils - 7/12&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8ykovs/offseason_the_rhockey_roast_of_the_colorado/\"&gt;Colorado
+        Avalanche - 7/13&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8ytwvq/offseason_the_rhockey_roast_of_the_florida/\"&gt;Florida
+        Panthers - 7/14&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8z2ieb/offseason_the_rhockey_roast_of_the_st_louis_blues/\"&gt;St.
+        Louis Blues - 7/15&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/hockey/comments/8zbl66/offseason_the_rhockey_roast_of_the_dallas_stars/\"&gt;Dallas
+        Stars - 7/16&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Calgary Flames - 7/17&lt;/p&gt;\n\n&lt;p&gt;New
+        York Islanders - 7/18&lt;/p&gt;\n\n&lt;p&gt;Edmonton Oilers - 7/19&lt;/p&gt;\n\n&lt;p&gt;New
+        York Rangers - 7/20&lt;/p&gt;\n\n&lt;p&gt;Chicago Blackhawks - 7/21&lt;/p&gt;\n\n&lt;p&gt;Vancouver
+        Canucks - 7/22&lt;/p&gt;\n\n&lt;p&gt;Detroit Red Wings - 7/23&lt;/p&gt;\n\n&lt;p&gt;Arizona
+        Coyotes - 7/24&lt;/p&gt;\n\n&lt;p&gt;Ottawa Senators - 7/25&lt;/p&gt;\n\n&lt;p&gt;Montreal
+        Canadiens - 7/26&lt;/p&gt;\n\n&lt;p&gt;Carolina Hurricanes - 7/27&lt;/p&gt;\n\n&lt;p&gt;Buffalo
+        Sabres - 7/28&lt;/p&gt;\n\n&lt;p&gt;Have at it!&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "TBL - NHL", "rte_mode": "markdown", "visited": false, "num_reports": null,
+        "distinguished": null, "subreddit_id": "t5_2qiel", "mod_reason_by": null,
+        "removal_reason": null, "id": "8zlsai", "report_reasons": null, "author":
+        "MOLightningBro", "num_crossposts": 0, "num_comments": 235, "send_replies":
+        false, "author_flair_text_color": null, "permalink": "/r/hockey/comments/8zlsai/offseason_the_rhockey_roast_of_the_calgary_flames/",
+        "whitelist_status": "all_ads", "stickied": true, "url": "https://www.reddit.com/r/hockey/comments/8zlsai/offseason_the_rhockey_roast_of_the_calgary_flames/",
+        "subreddit_subscribers": 617910, "created_utc": 1531839177.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "Hockey fans ask. Hockey fans answer. So
+        ask away (and feel free to answer too)!\n\nPlease keep the topics related
+        to hockey and refrain from tongue-in-cheek questions. This weekly thread is
+        to help everyone learn about the game we all love.\n\nUnsure on the rules
+        of hockey? You can find explanations for Icing, Offsides, and all major rules
+        on our Wiki at [/r/hockey/wiki/getting_into_hockey.](https://www.reddit.com/r/hockey/wiki/getting_into_hockey)\n\nTo
+        see all of the past threads head over to /r/TenderfootTuesday/new\n", "user_reports":
+        [], "saved": false, "mod_reason_title": null, "gilded": 0, "clicked": false,
+        "title": "Tenderfoot Tuesday: Ask /r/hockey Anything! July 17, 2018", "link_flair_richtext":
+        [{"e": "text", "t": "[Weekly Thread] "}], "subreddit_name_prefixed": "r/hockey",
+        "hidden": false, "pwls": 6, "link_flair_css_class": "weeklythreads", "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8zmfda",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 11, "domain": "self.hockey", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": "[Weekly Thread] ", "can_mod_post": false, "score":
+        11, "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        null, "author_flair_richtext": [], "content_categories": null, "is_self":
+        true, "mod_note": null, "created": 1531872424.0, "link_flair_type": "richtext",
+        "wls": 6, "author_id": "t2_6l4z3", "post_categories": null, "banned_by": null,
+        "author_flair_type": "text", "contest_mode": false, "selftext_html": "&lt;!--
+        SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hockey fans ask. Hockey fans
+        answer. So ask away (and feel free to answer too)!&lt;/p&gt;\n\n&lt;p&gt;Please
+        keep the topics related to hockey and refrain from tongue-in-cheek questions.
+        This weekly thread is to help everyone learn about the game we all love.&lt;/p&gt;\n\n&lt;p&gt;Unsure
+        on the rules of hockey? You can find explanations for Icing, Offsides, and
+        all major rules on our Wiki at &lt;a href=\"https://www.reddit.com/r/hockey/wiki/getting_into_hockey\"&gt;/r/hockey/wiki/getting_into_hockey.&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;To
+        see all of the past threads head over to &lt;a href=\"/r/TenderfootTuesday/new\"&gt;/r/TenderfootTuesday/new&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": true, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        null, "rte_mode": "markdown", "visited": false, "num_reports": null, "distinguished":
+        null, "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason":
+        null, "link_flair_background_color": "", "id": "8zmfda", "report_reasons":
+        null, "author": "AutoModerator", "num_crossposts": 0, "num_comments": 38,
+        "send_replies": false, "author_flair_text_color": null, "permalink": "/r/hockey/comments/8zmfda/tenderfoot_tuesday_ask_rhockey_anything_july_17/",
+        "whitelist_status": "all_ads", "stickied": true, "url": "https://www.reddit.com/r/hockey/comments/8zmfda/tenderfoot_tuesday_ask_rhockey_anything_july_17/",
+        "subreddit_subscribers": 617910, "created_utc": 1531843624.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "I recently did more research on this issue
+        and I didn\u2019t fully comprehend just how bad the situation was. \n\nhttps://www.sportsbusinessdaily.com/Journal/Issues/2016/03/14/Facilities/Coyotes-seating.aspx\n\nThe
+        arena was meant to seat 16,000+ people, but when it was retrofitted for hockey,
+        less than 11,000 seats actually had a fully unobstructed view of the ice.
+        Despite this, the Coyotes sold an average of over 13,000 tickets per game.
+        \n\nThat means that every game thousands of people were paying real money
+        for tickets where they couldn\u2019t even see half the ice.\n\nJust think
+        what could\u2019ve happened if the team hadn\u2019t moved so far away from
+        their fanbase. ", "user_reports": [], "saved": false, "mod_reason_title":
+        null, "gilded": 0, "clicked": false, "title": "TIL: In the two years prior
+        to the Coyotes moving to Glendale, they averaged 13,179 sold seats per game,
+        despite only having 10,923 unobstructed seats available to sell.", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8zo50y", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        851, "domain": "self.hockey", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 851, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "NHL-ARI1-sheet1-col14-row14",
+        "author_flair_richtext": [{"e": "text", "t": "ARI - NHL"}], "content_categories":
+        null, "is_self": true, "mod_note": null, "created": 1531883749.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_4fz9t82", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I recently did more
+        research on this issue and I didn\u2019t fully comprehend just how bad the
+        situation was. &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.sportsbusinessdaily.com/Journal/Issues/2016/03/14/Facilities/Coyotes-seating.aspx\"&gt;https://www.sportsbusinessdaily.com/Journal/Issues/2016/03/14/Facilities/Coyotes-seating.aspx&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;The
+        arena was meant to seat 16,000+ people, but when it was retrofitted for hockey,
+        less than 11,000 seats actually had a fully unobstructed view of the ice.
+        Despite this, the Coyotes sold an average of over 13,000 tickets per game.
+        &lt;/p&gt;\n\n&lt;p&gt;That means that every game thousands of people were
+        paying real money for tickets where they couldn\u2019t even see half the ice.&lt;/p&gt;\n\n&lt;p&gt;Just
+        think what could\u2019ve happened if the team hadn\u2019t moved so far away
+        from their fanbase. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "likes":
+        null, "suggested_sort": null, "banned_at_utc": null, "view_count": null, "archived":
+        false, "no_follow": false, "is_crosspostable": false, "pinned": false, "over_18":
+        false, "media": null, "media_only": false, "can_gild": false, "spoiler": false,
+        "locked": false, "author_flair_text": "ARI - NHL", "rte_mode": "markdown",
+        "visited": false, "num_reports": null, "distinguished": null, "subreddit_id":
+        "t5_2qiel", "mod_reason_by": null, "removal_reason": null, "id": "8zo50y",
+        "report_reasons": null, "author": "Frnklfrwsr", "num_crossposts": 0, "num_comments":
+        212, "send_replies": true, "author_flair_text_color": null, "permalink": "/r/hockey/comments/8zo50y/til_in_the_two_years_prior_to_the_coyotes_moving/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/hockey/comments/8zo50y/til_in_the_two_years_prior_to_the_coyotes_moving/",
+        "subreddit_subscribers": 617910, "created_utc": 1531854949.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "TIL that
+        on the night of his record setting 10-point game, Darryl Sittler had to change
+        his pregame meal due to running errands and ate Swiss Chalet chicken and fries",
+        "link_flair_richtext": [], "subreddit_name_prefixed": "r/hockey", "hidden":
+        false, "pwls": 6, "link_flair_css_class": null, "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8zlll2", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": null, "subreddit_type":
+        "public", "ups": 791, "domain": "nhl.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 791, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "NHL-TOR8-sheet3-col13-row10",
+        "author_flair_richtext": [{"e": "text", "t": "TOR - NHL"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1531866596.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_11otg7", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        null, "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "TOR - NHL", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason": null,
+        "id": "8zlll2", "report_reasons": null, "author": "JF_112", "num_crossposts":
+        0, "num_comments": 139, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zlll2/til_that_on_the_night_of_his_record_setting/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.nhl.com/news/darryl-sittler-10-point-game/c-278406152",
+        "subreddit_subscribers": 617910, "created_utc": 1531837796.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "#NYR have
+        agreed to terms with restricted free agent forward Jimmy Vesey on a two-year
+        contract.", "link_flair_richtext": [], "subreddit_name_prefixed": "r/hockey",
+        "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8zoe3y", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": null, "subreddit_type":
+        "public", "ups": 299, "domain": "twitter.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 299, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": null, "author_flair_richtext":
+        [], "content_categories": null, "is_self": false, "mod_note": null, "created":
+        1531885446.0, "link_flair_type": "text", "wls": 6, "author_id": "t2_8ozea",
+        "post_categories": null, "banned_by": null, "author_flair_type": "text", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        null, "rte_mode": "markdown", "visited": false, "num_reports": null, "distinguished":
+        null, "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason":
+        null, "id": "8zoe3y", "report_reasons": null, "author": "Lewtenit_Dan", "num_crossposts":
+        0, "num_comments": 79, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zoe3y/nyr_have_agreed_to_terms_with_restricted_free/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/NYRangers/status/1019306370670252041",
+        "subreddit_subscribers": 617910, "created_utc": 1531856646.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Oilers
+        Director of European scouting V\u00e1clav Burda has died in a car accident",
+        "link_flair_richtext": [], "subreddit_name_prefixed": "r/hockey", "hidden":
+        false, "pwls": 6, "link_flair_css_class": null, "downs": 0, "parent_whitelist_status":
+        "all_ads", "hide_score": false, "name": "t3_8zkqe0", "quarantine": false,
+        "link_flair_text_color": "dark", "author_flair_background_color": null, "subreddit_type":
+        "public", "ups": 994, "domain": "twitter.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 994, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": null, "author_flair_richtext":
+        [], "content_categories": null, "is_self": false, "mod_note": null, "created":
+        1531859608.0, "link_flair_type": "text", "wls": 6, "author_id": "t2_taby7",
+        "post_categories": null, "banned_by": null, "author_flair_type": "text", "contest_mode":
+        false, "selftext_html": null, "likes": null, "suggested_sort": null, "banned_at_utc":
+        null, "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        null, "rte_mode": "markdown", "visited": false, "num_reports": null, "distinguished":
+        null, "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason":
+        null, "id": "8zkqe0", "report_reasons": null, "author": "born1794", "num_crossposts":
+        0, "num_comments": 59, "send_replies": false, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zkqe0/oilers_director_of_european_scouting_v\u00e1clav_burda/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/czechDuster/status/1019197700577943552?s=19",
+        "subreddit_subscribers": 617910, "created_utc": 1531830808.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "The Oilers
+        have signed 2018 first-round (10th overall) NHL Draft selection, defenceman
+        Evan Bouchard, to a three-year entry-level contract.", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8zo0f4", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        281, "domain": "twitter.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 281, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "NHL-MTL1-sheet1-col21-row17",
+        "author_flair_richtext": [{"e": "text", "t": "MTL - NHL"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1531882931.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_f1a9e", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        null, "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "MTL - NHL", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason": null,
+        "id": "8zo0f4", "report_reasons": null, "author": "Kuciv", "num_crossposts":
+        1, "num_comments": 137, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zo0f4/the_oilers_have_signed_2018_firstround_10th/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/EdmontonOilers/status/1019295840274272256",
+        "subreddit_subscribers": 617910, "created_utc": 1531854131.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Vegas re-signs
+        Tomas Nosek, 1 year, $963k (one-way)", "link_flair_richtext": [], "subreddit_name_prefixed":
+        "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8zq9n5",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 103, "domain": "twitter.com", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": null, "can_mod_post": false, "score": 103, "approved_by":
+        null, "thumbnail": "", "edited": false, "author_flair_css_class": "NHL-PIT1-sheet1-col10-row19",
+        "author_flair_richtext": [{"e": "text", "t": "PIT - NHL"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1531899225.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_aziap", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        null, "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "PIT - NHL", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason": null,
+        "id": "8zq9n5", "report_reasons": null, "author": "stecz", "num_crossposts":
+        1, "num_comments": 18, "send_replies": false, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zq9n5/vegas_resigns_tomas_nosek_1_year_963k_oneway/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/renlavoietva/status/1019364171014656000",
+        "subreddit_subscribers": 617910, "created_utc": 1531870425.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "TIL No
+        U.S. Hockey Olympic Men''s team has won a gold medal without a player from
+        Warroad, Minnesota on the roster. A town of 1,700.", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8zhqw2", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        4755, "domain": "en.wikipedia.org", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 4755, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "NHL-MIN4-sheet1-col20-row17",
+        "author_flair_richtext": [{"e": "text", "t": "MIN - NHL"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1531827133.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_75cx1", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        null, "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "MIN - NHL", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason": null,
+        "id": "8zhqw2", "report_reasons": null, "author": "cjstop", "num_crossposts":
+        0, "num_comments": 380, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zhqw2/til_no_us_hockey_olympic_mens_team_has_won_a_gold/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://en.wikipedia.org/wiki/Warroad,_Minnesota#History",
+        "subreddit_subscribers": 617910, "created_utc": 1531798333.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Tampa Bay
+        Lightning logo concept", "link_flair_richtext": [], "subreddit_name_prefixed":
+        "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8zoifz",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 193, "domain": "imgur.com", "media_embed":
+        {"content": "&lt;iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FOuTTrCZ%2Fembed&amp;url=https%3A%2F%2Fimgur.com%2Fa%2FOuTTrCZ&amp;image=https%3A%2F%2Fi.imgur.com%2FlkPjIE0.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
+        width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay;
+        fullscreen\" allowfullscreen=\"true\"&gt;&lt;/iframe&gt;", "width": 550, "scrolling":
+        false, "height": 550}, "author_flair_template_id": null, "is_original_content":
+        false, "secure_media": {"oembed": {"provider_url": "http://imgur.com", "description":
+        "Post with 1 views.", "title": "Imgur", "type": "rich", "thumbnail_width":
+        600, "height": 550, "width": 550, "html": "&lt;iframe class=\"embedly-embed\"
+        src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FOuTTrCZ%2Fembed&amp;url=https%3A%2F%2Fimgur.com%2Fa%2FOuTTrCZ&amp;image=https%3A%2F%2Fi.imgur.com%2FlkPjIE0.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
+        width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay;
+        fullscreen\" allowfullscreen=\"true\"&gt;&lt;/iframe&gt;", "version": "1.0",
+        "provider_name": "Imgur", "thumbnail_url": "https://i.imgur.com/lkPjIE0.jpg?fb",
+        "thumbnail_height": 315}, "type": "imgur.com"}, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {"content": "&lt;iframe class=\"embedly-embed\"
+        src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FOuTTrCZ%2Fembed&amp;url=https%3A%2F%2Fimgur.com%2Fa%2FOuTTrCZ&amp;image=https%3A%2F%2Fi.imgur.com%2FlkPjIE0.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
+        width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay;
+        fullscreen\" allowfullscreen=\"true\"&gt;&lt;/iframe&gt;", "width": 550, "scrolling":
+        false, "media_domain_url": "https://www.redditmedia.com/mediaembed/8zoifz",
+        "height": 550}, "link_flair_text": null, "can_mod_post": false, "score": 193,
+        "approved_by": null, "thumbnail": "", "edited": false, "author_flair_css_class":
+        null, "author_flair_richtext": [], "content_categories": null, "is_self":
+        false, "mod_note": null, "created": 1531886239.0, "link_flair_type": "text",
+        "wls": 6, "author_id": "t2_dfpik", "post_categories": null, "banned_by": null,
+        "author_flair_type": "text", "contest_mode": false, "selftext_html": null,
+        "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": {"oembed": {"provider_url": "http://imgur.com",
+        "description": "Post with 1 views.", "title": "Imgur", "type": "rich", "thumbnail_width":
+        600, "height": 550, "width": 550, "html": "&lt;iframe class=\"embedly-embed\"
+        src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Fimgur.com%2Fa%2FOuTTrCZ%2Fembed&amp;url=https%3A%2F%2Fimgur.com%2Fa%2FOuTTrCZ&amp;image=https%3A%2F%2Fi.imgur.com%2FlkPjIE0.jpg%3Ffb&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=imgur\"
+        width=\"550\" height=\"550\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay;
+        fullscreen\" allowfullscreen=\"true\"&gt;&lt;/iframe&gt;", "version": "1.0",
+        "provider_name": "Imgur", "thumbnail_url": "https://i.imgur.com/lkPjIE0.jpg?fb",
+        "thumbnail_height": 315}, "type": "imgur.com"}, "media_only": false, "can_gild":
+        false, "spoiler": false, "locked": false, "author_flair_text": null, "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason": null,
+        "id": "8zoifz", "report_reasons": null, "author": "goffbrian", "num_crossposts":
+        0, "num_comments": 112, "send_replies": true, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zoifz/tampa_bay_lightning_logo_concept/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://imgur.com/a/OuTTrCZ",
+        "subreddit_subscribers": 617910, "created_utc": 1531857439.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "", "user_reports": [], "saved": false,
+        "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Hurricanes
+        tweet out an amazing collage for World Emoji Day", "link_flair_richtext":
+        [], "subreddit_name_prefixed": "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class":
+        null, "downs": 0, "parent_whitelist_status": "all_ads", "hide_score": false,
+        "name": "t3_8zm5xs", "quarantine": false, "link_flair_text_color": "dark",
+        "author_flair_background_color": null, "subreddit_type": "public", "ups":
+        366, "domain": "twitter.com", "media_embed": {}, "author_flair_template_id":
+        null, "is_original_content": false, "secure_media": null, "is_reddit_media_domain":
+        false, "category": null, "secure_media_embed": {}, "link_flair_text": null,
+        "can_mod_post": false, "score": 366, "approved_by": null, "thumbnail": "",
+        "edited": false, "author_flair_css_class": "NHL-CAR2-sheet1-col12-row15",
+        "author_flair_richtext": [{"e": "text", "t": "CAR - NHL"}], "content_categories":
+        null, "is_self": false, "mod_note": null, "created": 1531870630.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_4ya8u", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        null, "likes": null, "suggested_sort": null, "banned_at_utc": null, "view_count":
+        null, "archived": false, "no_follow": false, "is_crosspostable": false, "pinned":
+        false, "over_18": false, "media": null, "media_only": false, "can_gild": false,
+        "spoiler": false, "locked": false, "author_flair_text": "CAR - NHL", "rte_mode":
+        "markdown", "visited": false, "num_reports": null, "distinguished": null,
+        "subreddit_id": "t5_2qiel", "mod_reason_by": null, "removal_reason": null,
+        "id": "8zm5xs", "report_reasons": null, "author": "juicepouch", "num_crossposts":
+        1, "num_comments": 37, "send_replies": false, "author_flair_text_color": null,
+        "permalink": "/r/hockey/comments/8zm5xs/hurricanes_tweet_out_an_amazing_collage_for_world/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://twitter.com/NHLCanes/status/1019240791246622720",
+        "subreddit_subscribers": 617910, "created_utc": 1531841830.0, "mod_reports":
+        [], "is_video": false}}, {"kind": "t3", "data": {"approved_at_utc": null,
+        "subreddit": "hockey", "selftext": "The trade was made on January 23rd 1996.\n\nThe
+        Sens sent Bryan Berard, Martin Straka and Don Beaupre to the Islanders and
+        the received Wade Redden and Damian Rhodes.\n\nBoth Berard and Redden didn''t
+        play a single regular season game with the team who selected them. ", "user_reports":
+        [], "saved": false, "mod_reason_title": null, "gilded": 0, "clicked": false,
+        "title": "TIL that in 1995 the Ottawa Senators picked Bryan Berard 1st OA
+        and the New York Islanders picked Wade Redden 2nd OA. They were both traded
+        for one another in January 1996.", "link_flair_richtext": [], "subreddit_name_prefixed":
+        "r/hockey", "hidden": false, "pwls": 6, "link_flair_css_class": null, "downs":
+        0, "parent_whitelist_status": "all_ads", "hide_score": false, "name": "t3_8zm8rm",
+        "quarantine": false, "link_flair_text_color": "dark", "author_flair_background_color":
+        null, "subreddit_type": "public", "ups": 302, "domain": "self.hockey", "media_embed":
+        {}, "author_flair_template_id": null, "is_original_content": false, "secure_media":
+        null, "is_reddit_media_domain": false, "category": null, "secure_media_embed":
+        {}, "link_flair_text": null, "can_mod_post": false, "score": 302, "approved_by":
+        null, "thumbnail": "", "edited": 1531842698.0, "author_flair_css_class": "AHL-LavalRocket2-sheet3-col13-row17",
+        "author_flair_richtext": [{"e": "text", "t": "Laval Rocket - AHL"}], "content_categories":
+        null, "is_self": true, "mod_note": null, "created": 1531871186.0, "link_flair_type":
+        "text", "wls": 6, "author_id": "t2_8udkz", "post_categories": null, "banned_by":
+        null, "author_flair_type": "richtext", "contest_mode": false, "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;The trade was made
+        on January 23rd 1996.&lt;/p&gt;\n\n&lt;p&gt;The Sens sent Bryan Berard, Martin
+        Straka and Don Beaupre to the Islanders and the received Wade Redden and Damian
+        Rhodes.&lt;/p&gt;\n\n&lt;p&gt;Both Berard and Redden didn&amp;#39;t play a
+        single regular season game with the team who selected them. &lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "likes": null, "suggested_sort": null, "banned_at_utc": null,
+        "view_count": null, "archived": false, "no_follow": false, "is_crosspostable":
+        false, "pinned": false, "over_18": false, "media": null, "media_only": false,
+        "can_gild": false, "spoiler": false, "locked": false, "author_flair_text":
+        "Laval Rocket - AHL", "rte_mode": "markdown", "visited": false, "num_reports":
+        null, "distinguished": null, "subreddit_id": "t5_2qiel", "mod_reason_by":
+        null, "removal_reason": null, "id": "8zm8rm", "report_reasons": null, "author":
+        "Gabroux", "num_crossposts": 0, "num_comments": 61, "send_replies": true,
+        "author_flair_text_color": null, "permalink": "/r/hockey/comments/8zm8rm/til_that_in_1995_the_ottawa_senators_picked_bryan/",
+        "whitelist_status": "all_ads", "stickied": false, "url": "https://www.reddit.com/r/hockey/comments/8zm8rm/til_that_in_1995_the_ottawa_senators_picked_bryan/",
+        "subreddit_subscribers": 617910, "created_utc": 1531842386.0, "mod_reports":
+        [], "is_video": false}}], "after": "t3_8zm8rm", "before": null}}'
+    http_version: 
+  recorded_at: Wed, 18 Jul 2018 01:52:38 GMT
+recorded_with: VCR 4.0.0

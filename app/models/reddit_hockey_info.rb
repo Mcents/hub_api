@@ -1,15 +1,15 @@
-class RedditSoccerInfo
-  attr_reader :soccer_array
+class RedditHockeyInfo
+  attr_reader :hockey_array
 
-  def initialize(soccer_atts={})
-    @soccer_array = []
+  def initialize(hockey_atts={})
+    @hockey_array = []
   end
 
-  def soccer_info_hash
-    RedditService.new.soccer_feed['data']['children'].each do |raw|
+  def hockey_info_hash
+    RedditService.new.hockey_feed['data']['children'].each do |raw|
       create_hash_structure(raw)
     end
-    soccer_array
+    hockey_array
   end
 
   def create_hash_structure(data)
@@ -18,6 +18,6 @@ class RedditSoccerInfo
     hash['score'] = data['data']['score']
     hash['url']   = data['data']['url']
     hash['body']  = data['data']['selftext']
-    soccer_array << hash
+    hockey_array << hash
   end
 end

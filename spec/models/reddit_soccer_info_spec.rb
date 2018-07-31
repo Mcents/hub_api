@@ -6,6 +6,7 @@ describe RedditSoccerInfo do
 
       soccer = RedditSoccerInfo.new.soccer_info_hash
 
+      expect(soccer).to be
       expect(soccer.count).to eq(12)
     end
   end

@@ -15,7 +15,7 @@ gem 'figaro'
 # gem 'rack-cors'
 
 group :development, :test do
-  gem 'pry'
+  #gem 'pry'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'

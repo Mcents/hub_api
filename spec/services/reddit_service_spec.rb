@@ -6,6 +6,7 @@ describe RedditService do
       VCR.use_cassette("soccer_info") do
 
         soccer_info = RedditService.new.soccer_feed
+        require 'pry';binding.pry
 
         expect(soccer_info.class).to eq(Hash)
         expect(soccer_info).to have_key("data")
